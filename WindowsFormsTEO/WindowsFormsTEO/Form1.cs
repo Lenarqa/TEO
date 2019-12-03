@@ -74,6 +74,7 @@ namespace WindowsFormsTEO
             textBox134.Text = "0";
             textBox135.Text = "0";
             textBox136.Text = "0";
+            textBox137.Text = "0";
             textBox167.Text = "0";
 
             textBox138.Text = "21";
@@ -87,7 +88,32 @@ namespace WindowsFormsTEO
             textBox146.Text = "0";
             textBox147.Text = "0";
 
+            textBox148.Text = "шт.";
+            textBox149.Text = "шт.";
+            textBox150.Text = "пачка";
 
+            textBox153.Text = "0";
+            textBox152.Text = "0";
+            textBox151.Text = "0";
+
+            textBox156.Text = "0";
+            textBox155.Text = "0";
+            textBox154.Text = "0";
+
+            textBox160.Text = "0";
+            textBox159.Text = "0";
+            textBox158.Text = "0";
+            textBox157.Text = "0";
+            textBox169.Text = "0";
+            textBox170.Text = "0";
+
+            textBox164.Text = "0";
+            textBox162.Text = "0";
+            textBox163.Text = "0";
+            textBox168.Text = "0";
+            textBox166.Text = "0";
+            textBox161.Text = "0";
+            textBox165.Text = "0";
 
             comboBox2.SelectedItem = "1";
             comboBox3.SelectedItem = "1";
@@ -1390,6 +1416,11 @@ namespace WindowsFormsTEO
 
         }
 
+        private void label103_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             double K = 0, Kp = 0, Kp2 = 0, Wd = 0, Wc = 0, Wh = 0, rabDayMounth = 0;
@@ -1398,6 +1429,9 @@ namespace WindowsFormsTEO
             double ozp1 = 0, ozp2 = 0, ozpSum = 0;//озп
             double Cm = 0; //затраты на материалы.
             double Mv = 0;//машинное время
+            double Ko;//затраты на основное и вспомогательное оборудование
+            double Yj;//коэффициент загрузки 
+            double Tj;//Время работы технического средства 
 
 
             if (textBox146.Text.Equals(""))
@@ -1466,6 +1500,22 @@ namespace WindowsFormsTEO
             {
                 MessageBox.Show("Введите коэффициент мультипликотивности");
             }
+            else if (textBox142.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите количество оборудования");
+            }
+            else if (textBox141.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите балансовую стоимость оборудования");
+            }
+            else if (textBox169.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите сколько затрачено машинного времени");
+            }
+            else if (textBox170.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите Uк – частота (периодичность) решения дней /год ");
+            }
             else
             { 
                 Wd = Convert.ToDouble(textBox146.Text) + Convert.ToDouble(textBox147.Text);
@@ -1509,7 +1559,7 @@ namespace WindowsFormsTEO
                 Mv = Convert.ToDouble(textBox143.Text) * Convert.ToDouble(textBox144.Text) * day2 * Convert.ToDouble(textBox145.Text);
 
                 Kp = ((1 + Wd)*(1 + Wc) + Wh) * ozpSum + Cm + Mv;
-                label104.Text = "Капитальные вложения(K) = " + Kp;
+                label104.Text = "Капитальные вложения(Kп) = " + Kp;
                 //label104.Text = day1 + " " + day2;
                 textBox164.Text = ozpSum.ToString();
                 textBox166.Text = Wh.ToString();
@@ -1520,7 +1570,8 @@ namespace WindowsFormsTEO
                 textBox166.Text = (ozpSum * Wh).ToString();
                 textBox161.Text = (ozpSum+ Wh+ Cm+ Mv+ (ozpSum * Wd)+ ((ozpSum + (ozpSum * Wd)) * Wc)+ (ozpSum * Wh)).ToString();
 
-
+                label105.Text ="Кр = " + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8))).ToString();
+                label110.Text = "К = " + (Kp + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8)))).ToString();
             }
 
         }
