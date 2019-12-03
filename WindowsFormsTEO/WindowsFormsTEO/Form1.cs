@@ -17,6 +17,7 @@ namespace WindowsFormsTEO
         double J1, J2, Ak = 0;
         DateTime dt1 = new DateTime();//руководитель
         DateTime dt2 = new DateTime();//программист
+        double day1, day2;
         public Form1()
         {
             InitializeComponent();
@@ -65,7 +66,29 @@ namespace WindowsFormsTEO
             textBox122.Text = "0";
             textBox117.Text = "0";
             textBox116.Text = "0";
-           
+
+            textBox130.Text = "0";
+            textBox131.Text = "0";
+            textBox132.Text = "0";
+            textBox133.Text = "0";
+            textBox134.Text = "0";
+            textBox135.Text = "0";
+            textBox136.Text = "0";
+            textBox167.Text = "0";
+
+            textBox138.Text = "21";
+            textBox139.Text = "0";
+            textBox140.Text = "0";
+            textBox141.Text = "0";
+            textBox142.Text = "0";
+            textBox143.Text = "0";
+            textBox144.Text = "0";
+            textBox145.Text = "0";
+            textBox146.Text = "0";
+            textBox147.Text = "0";
+
+
+
             comboBox2.SelectedItem = "1";
             comboBox3.SelectedItem = "1";
             comboBox4.SelectedItem = "1";
@@ -96,6 +119,7 @@ namespace WindowsFormsTEO
 
             if (textBox29.Text.Equals("0")){
                 dt2 = dt1;
+                day1 = 1;
                 textBox30.Text = dt1.ToShortDateString();
                 textBox31.Text = dt1.ToShortDateString();
                 textBox33.Text = "---";
@@ -106,9 +130,12 @@ namespace WindowsFormsTEO
                 textBox30.Text = dt1.ToShortDateString();
                 textBox33.Text = dt2.ToShortDateString();
 
-
+                
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox28.Text));
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox29.Text));
+
+                day1 += Convert.ToDouble(textBox28.Text);
+                day2 += Convert.ToDouble(textBox29.Text);
 
                 textBox31.Text = dt1.ToShortDateString();
                 textBox32.Text = dt2.ToShortDateString();
@@ -116,6 +143,7 @@ namespace WindowsFormsTEO
 
             dt1 = dt1.AddDays(1);
             dt2 = dt2.AddDays(1);
+
             if (dt1 > dt2)
             {
                 dt2 = dt1;
@@ -141,7 +169,7 @@ namespace WindowsFormsTEO
                 textBox35.Text = dt2.ToShortDateString();
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox38.Text));
                 textBox34.Text = dt2.ToShortDateString();
-
+                day2 += Convert.ToDouble(textBox38.Text);
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -160,6 +188,7 @@ namespace WindowsFormsTEO
                 textBox37.Text = dt1.ToShortDateString(); //начальная дата
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox39.Text));//начальная дата + дни
                 textBox36.Text = dt1.ToShortDateString();//конечная дата
+                day1 += Convert.ToDouble(textBox39.Text);
 
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
@@ -180,6 +209,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox39.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox38.Text));
 
+                day1 += Convert.ToDouble(textBox39.Text);
+                day2 += Convert.ToDouble(textBox38.Text);
 
                 textBox36.Text = dt1.ToShortDateString();//конечная дата
                 textBox34.Text = dt2.ToShortDateString();
@@ -212,6 +243,8 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox50.Text));
                 textBox46.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox50.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -230,6 +263,8 @@ namespace WindowsFormsTEO
                 textBox49.Text = dt1.ToShortDateString(); //начальная дата
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox51.Text));//начальная дата + дни
                 textBox48.Text = dt1.ToShortDateString();//конечная дата
+
+                day1 += Convert.ToDouble(textBox51.Text);
 
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
@@ -250,6 +285,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox51.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox50.Text));
 
+                day1 += Convert.ToDouble(textBox51.Text);
+                day2 += Convert.ToDouble(textBox50.Text);
 
                 textBox48.Text = dt1.ToShortDateString();//конечная дата
                 textBox46.Text = dt2.ToShortDateString();
@@ -282,6 +319,8 @@ namespace WindowsFormsTEO
                 textBox41.Text = dt2.ToShortDateString();
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox44.Text));
                 textBox40.Text = dt2.ToShortDateString();
+                day2 += Convert.ToDouble(textBox44.Text);
+
 
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
@@ -303,6 +342,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox45.Text));//начальная дата + дни
                 textBox42.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox45.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -322,6 +363,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox45.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox44.Text));
 
+                day1 += Convert.ToDouble(textBox45.Text);
+                day2 += Convert.ToDouble(textBox44.Text);
 
                 textBox42.Text = dt1.ToShortDateString();//конечная дата
                 textBox40.Text = dt2.ToShortDateString();
@@ -354,6 +397,8 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox74.Text));
                 textBox70.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox74.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -374,6 +419,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox75.Text));//начальная дата + дни
                 textBox72.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox75.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -393,6 +440,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox75.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox74.Text));
 
+                day1 += Convert.ToDouble(textBox75.Text);
+                day2 += Convert.ToDouble(textBox74.Text);
 
                 textBox72.Text = dt1.ToShortDateString();//конечная дата
                 textBox70.Text = dt2.ToShortDateString();
@@ -425,6 +474,9 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox62.Text));
                 textBox58.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox62.Text);
+
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -445,6 +497,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox63.Text));//начальная дата + дни
                 textBox60.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox63.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -464,6 +518,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox63.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox62.Text));
 
+                day1 += Convert.ToDouble(textBox63.Text);
+                day2 += Convert.ToDouble(textBox62.Text);
 
                 textBox60.Text = dt1.ToShortDateString();//конечная дата
                 textBox58.Text = dt2.ToShortDateString();
@@ -496,6 +552,8 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox68.Text));
                 textBox64.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox68.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -516,6 +574,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox69.Text));//начальная дата + дни
                 textBox66.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox69.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -535,6 +595,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox69.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox68.Text));
 
+                day1 += Convert.ToDouble(textBox69.Text);
+                day2 += Convert.ToDouble(textBox68.Text);
 
                 textBox66.Text = dt1.ToShortDateString();//конечная дата
                 textBox64.Text = dt2.ToShortDateString();
@@ -567,6 +629,8 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox56.Text));
                 textBox52.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox56.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -587,6 +651,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox57.Text));//начальная дата + дни
                 textBox54.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox57.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -605,6 +671,9 @@ namespace WindowsFormsTEO
 
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox57.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox56.Text));
+
+                day1 += Convert.ToDouble(textBox57.Text);
+                day2 += Convert.ToDouble(textBox56.Text);
 
 
                 textBox54.Text = dt1.ToShortDateString();//конечная дата
@@ -638,6 +707,8 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox86.Text));
                 textBox82.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox86.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -658,6 +729,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox87.Text));//начальная дата + дни
                 textBox84.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox87.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -677,6 +750,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox87.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox86.Text));
 
+                day1 += Convert.ToDouble(textBox87.Text);
+                day2 += Convert.ToDouble(textBox86.Text);
 
                 textBox84.Text = dt1.ToShortDateString();//конечная дата
                 textBox82.Text = dt2.ToShortDateString();
@@ -709,6 +784,9 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox80.Text));
                 textBox76.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox80.Text);
+
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -729,6 +807,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox81.Text));//начальная дата + дни
                 textBox78.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox81.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -748,6 +828,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox81.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox80.Text));
 
+                day1 += Convert.ToDouble(textBox81.Text);
+                day2 += Convert.ToDouble(textBox80.Text);
 
                 textBox78.Text = dt1.ToShortDateString();//конечная дата
                 textBox76.Text = dt2.ToShortDateString();
@@ -780,6 +862,8 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox98.Text));
                 textBox94.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox98.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -800,6 +884,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox99.Text));//начальная дата + дни
                 textBox96.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox99.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -819,6 +905,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox99.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox98.Text));
 
+                day1 += Convert.ToDouble(textBox99.Text);
+                day2 += Convert.ToDouble(textBox98.Text);
 
                 textBox96.Text = dt1.ToShortDateString();//конечная дата
                 textBox94.Text = dt2.ToShortDateString();
@@ -851,6 +939,8 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox92.Text));
                 textBox88.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox92.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -871,6 +961,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox93.Text));//начальная дата + дни
                 textBox90.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox93.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -890,6 +982,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox93.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox92.Text));
 
+                day1 += Convert.ToDouble(textBox93.Text);
+                day2 += Convert.ToDouble(textBox92.Text);
 
                 textBox90.Text = dt1.ToShortDateString();//конечная дата
                 textBox88.Text = dt2.ToShortDateString();
@@ -922,6 +1016,8 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox104.Text));
                 textBox100.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox104.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -942,6 +1038,9 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox105.Text));//начальная дата + дни
                 textBox102.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox105.Text);
+
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -961,6 +1060,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox105.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox104.Text));
 
+                day1 += Convert.ToDouble(textBox105.Text);
+                day2 += Convert.ToDouble(textBox104.Text);
 
                 textBox102.Text = dt1.ToShortDateString();//конечная дата
                 textBox100.Text = dt2.ToShortDateString();
@@ -993,6 +1094,9 @@ namespace WindowsFormsTEO
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox110.Text));
                 textBox106.Text = dt2.ToShortDateString();
 
+                day2 += Convert.ToDouble(textBox110.Text);
+
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -1013,6 +1117,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox111.Text));//начальная дата + дни
                 textBox108.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox111.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -1031,6 +1137,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox111.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox110.Text));
 
+                day1 += Convert.ToDouble(textBox111.Text);
+                day2 += Convert.ToDouble(textBox110.Text);
 
                 textBox108.Text = dt1.ToShortDateString();//конечная дата
                 textBox106.Text = dt2.ToShortDateString();
@@ -1061,6 +1169,9 @@ namespace WindowsFormsTEO
                 textBox126.Text = "---";
                 textBox125.Text = dt2.ToShortDateString();
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox128.Text));
+
+                day2 += Convert.ToDouble(textBox128.Text);
+
                 textBox124.Text = dt2.ToShortDateString();
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
@@ -1082,6 +1193,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox129.Text));//начальная дата + дни
                 textBox126.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox129.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -1101,6 +1214,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox129.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox128.Text));
 
+                day1 += Convert.ToDouble(textBox129.Text);
+                day2 += Convert.ToDouble(textBox128.Text);
 
                 textBox126.Text = dt1.ToShortDateString();//конечная дата
                 textBox124.Text = dt2.ToShortDateString();
@@ -1132,6 +1247,9 @@ namespace WindowsFormsTEO
                 textBox119.Text = dt2.ToShortDateString();
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox122.Text));
                 textBox118.Text = dt2.ToShortDateString();
+
+                day2 += Convert.ToDouble(textBox122.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -1152,6 +1270,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox123.Text));//начальная дата + дни
                 textBox120.Text = dt1.ToShortDateString();//конечная дата
 
+                day1 += Convert.ToDouble(textBox123.Text);
+
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -1171,6 +1291,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox123.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox122.Text));
 
+                day1 += Convert.ToDouble(textBox123.Text);
+                day2 += Convert.ToDouble(textBox122.Text);
 
                 textBox120.Text = dt1.ToShortDateString();//конечная дата
                 textBox118.Text = dt2.ToShortDateString();
@@ -1202,6 +1324,8 @@ namespace WindowsFormsTEO
                 textBox113.Text = dt2.ToShortDateString();
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox116.Text));
                 textBox112.Text = dt2.ToShortDateString();
+
+                day2 += Convert.ToDouble(textBox116.Text);
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -1221,7 +1345,7 @@ namespace WindowsFormsTEO
                 textBox115.Text = dt1.ToShortDateString(); //начальная дата
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox117.Text));//начальная дата + дни
                 textBox114.Text = dt1.ToShortDateString();//конечная дата
-
+                day1 += Convert.ToDouble(textBox117.Text);
                 dt1 = dt1.AddDays(1);
                 dt2 = dt2.AddDays(1);
                 if (dt1 > dt2)
@@ -1241,6 +1365,8 @@ namespace WindowsFormsTEO
                 dt1 = dt1.AddDays(Convert.ToDouble(textBox117.Text));//начальная дата + дни
                 dt2 = dt2.AddDays(Convert.ToDouble(textBox116.Text));
 
+                day1 += Convert.ToDouble(textBox117.Text);
+                day2 += Convert.ToDouble(textBox116.Text);
 
                 textBox114.Text = dt1.ToShortDateString();//конечная дата
                 textBox112.Text = dt2.ToShortDateString();
@@ -1257,6 +1383,146 @@ namespace WindowsFormsTEO
                 }
             }
             
+        }
+
+        private void label91_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double K = 0, Kp = 0, Kp2 = 0, Wd = 0, Wc = 0, Wh = 0, rabDayMounth = 0;
+            double okl1 = 0, okl2 = 0;//оклады
+            double srDaySt1 = 0, srDaySt2 = 0;//средне дневная ставка
+            double ozp1 = 0, ozp2 = 0, ozpSum = 0;//озп
+            double Cm = 0; //затраты на материалы.
+            double Mv = 0;//машинное время
+
+
+            if (textBox146.Text.Equals(""))
+            {
+                MessageBox.Show("Введите коэффициент отпуска!");
+            }
+            else if (textBox146.Text.Equals(""))
+            {
+                MessageBox.Show("Введите Районный коэффициент!");
+            }
+            else if (textBox139.Text.Equals(""))
+            {
+                MessageBox.Show("Введите коэф., на отчисления в социальные нужды");
+            }
+            else if (textBox140.Text.Equals(""))
+            {
+                MessageBox.Show("Введите коэф., накладных расходов в долях");
+            }
+            else if (textBox140.Text.Equals(""))
+            {
+                MessageBox.Show("Введите количество рабочих дней в мясяце");
+            }
+            else if (textBox130.Text.Equals("0") || textBox130.Text.Equals(""))
+            {
+                MessageBox.Show("Введите оклад руководителя");
+            }
+            else if (textBox131.Text.Equals("0") || textBox131.Text.Equals(""))
+            {
+                MessageBox.Show("Введите оклад программиста");
+            }
+            else if (textBox153.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите количество компакт дисков");
+            }
+            else if (textBox152.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите количество тонера для принтера");
+            }
+            else if (textBox151.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите количество пачек бумаги");
+            }
+
+            else if (textBox156.Text.Equals("0"))
+            {
+                
+                MessageBox.Show("Введите цену за единицу компакт дисков");
+            }
+            else if (textBox154.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите цену за единицу тонера для лазерного принтера");
+            }
+            else if (textBox151.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите цену за единицу пачки бумаги");
+            }
+            else if (textBox151.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите машинное время");
+            }
+            else if (textBox144.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите стоимость часа машинного времени");
+            }
+            else if (textBox145.Text.Equals("0"))
+            {
+                MessageBox.Show("Введите коэффициент мультипликотивности");
+            }
+            else
+            { 
+                Wd = Convert.ToDouble(textBox146.Text) + Convert.ToDouble(textBox147.Text);
+                Wc = Convert.ToDouble(textBox139.Text);
+                Wh = Convert.ToDouble(textBox140.Text);
+
+                rabDayMounth = Convert.ToDouble(textBox138.Text);
+
+                okl1 = Convert.ToDouble(textBox130.Text);
+                okl2 = Convert.ToDouble(textBox131.Text);
+
+                srDaySt1 = okl1 / rabDayMounth;
+                textBox133.Text = srDaySt1.ToString();
+
+                srDaySt2 = okl2 / rabDayMounth;
+                textBox132.Text = srDaySt2.ToString();
+
+                textBox135.Text = day1.ToString();
+                textBox134.Text = day2.ToString();
+
+                ozp1 = day1 * srDaySt1;
+                ozp2 = day2 * srDaySt2;
+
+                textBox137.Text = ozp1.ToString();
+                textBox136.Text = ozp2.ToString();
+
+                ozpSum = ozp1 + ozp2;
+                textBox167.Text = ozpSum.ToString();
+
+                Cm += Convert.ToDouble(textBox153.Text) * Convert.ToDouble(textBox156.Text);
+                textBox159.Text = (Convert.ToDouble(textBox153.Text)*Convert.ToDouble(textBox156.Text)).ToString();
+
+                Cm += Convert.ToDouble(textBox152.Text) * Convert.ToDouble(textBox155.Text);
+                textBox158.Text = (Convert.ToDouble(textBox152.Text) * Convert.ToDouble(textBox155.Text)).ToString();
+
+                Cm += Convert.ToDouble(textBox151.Text) * Convert.ToDouble(textBox154.Text);
+                textBox157.Text = (Convert.ToDouble(textBox151.Text) * Convert.ToDouble(textBox154.Text)).ToString();
+
+                textBox160.Text = Cm.ToString();
+
+                Mv = Convert.ToDouble(textBox143.Text) * Convert.ToDouble(textBox144.Text) * day2 * Convert.ToDouble(textBox145.Text);
+
+                Kp = ((1 + Wd)*(1 + Wc) + Wh) * ozpSum + Cm + Mv;
+                label104.Text = "Капитальные вложения(K) = " + Kp;
+                //label104.Text = day1 + " " + day2;
+                textBox164.Text = ozpSum.ToString();
+                textBox166.Text = Wh.ToString();
+                textBox168.Text = Cm.ToString();
+                textBox165.Text = Mv.ToString();
+                textBox162.Text = (ozpSum*Wd).ToString();
+                textBox163.Text = ((ozpSum + (ozpSum * Wd))*Wc).ToString();
+                textBox166.Text = (ozpSum * Wh).ToString();
+                textBox161.Text = (ozpSum+ Wh+ Cm+ Mv+ (ozpSum * Wd)+ ((ozpSum + (ozpSum * Wd)) * Wc)+ (ozpSum * Wh)).ToString();
+
+
+            }
+
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
