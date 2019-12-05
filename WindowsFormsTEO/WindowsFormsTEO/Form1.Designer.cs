@@ -268,100 +268,100 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.textBox130 = new System.Windows.Forms.TextBox();
-            this.textBox131 = new System.Windows.Forms.TextBox();
-            this.textBox132 = new System.Windows.Forms.TextBox();
-            this.textBox133 = new System.Windows.Forms.TextBox();
-            this.textBox134 = new System.Windows.Forms.TextBox();
-            this.textBox135 = new System.Windows.Forms.TextBox();
-            this.textBox136 = new System.Windows.Forms.TextBox();
-            this.textBox137 = new System.Windows.Forms.TextBox();
-            this.groupBox23 = new System.Windows.Forms.GroupBox();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.textBox138 = new System.Windows.Forms.TextBox();
-            this.textBox139 = new System.Windows.Forms.TextBox();
-            this.textBox140 = new System.Windows.Forms.TextBox();
-            this.textBox141 = new System.Windows.Forms.TextBox();
+            this.label111 = new System.Windows.Forms.Label();
+            this.groupBox26 = new System.Windows.Forms.GroupBox();
+            this.textBox170 = new System.Windows.Forms.TextBox();
+            this.label109 = new System.Windows.Forms.Label();
+            this.textBox169 = new System.Windows.Forms.TextBox();
+            this.label108 = new System.Windows.Forms.Label();
             this.textBox142 = new System.Windows.Forms.TextBox();
-            this.textBox143 = new System.Windows.Forms.TextBox();
-            this.textBox144 = new System.Windows.Forms.TextBox();
-            this.textBox145 = new System.Windows.Forms.TextBox();
-            this.textBox146 = new System.Windows.Forms.TextBox();
-            this.textBox147 = new System.Windows.Forms.TextBox();
-            this.label84 = new System.Windows.Forms.Label();
+            this.textBox141 = new System.Windows.Forms.TextBox();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label110 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.groupBox25 = new System.Windows.Forms.GroupBox();
+            this.textBox168 = new System.Windows.Forms.TextBox();
+            this.label107 = new System.Windows.Forms.Label();
+            this.textBox165 = new System.Windows.Forms.TextBox();
+            this.textBox166 = new System.Windows.Forms.TextBox();
+            this.textBox162 = new System.Windows.Forms.TextBox();
+            this.textBox163 = new System.Windows.Forms.TextBox();
+            this.textBox164 = new System.Windows.Forms.TextBox();
+            this.textBox161 = new System.Windows.Forms.TextBox();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label100 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.groupBox24 = new System.Windows.Forms.GroupBox();
+            this.textBox160 = new System.Windows.Forms.TextBox();
+            this.label102 = new System.Windows.Forms.Label();
+            this.textBox157 = new System.Windows.Forms.TextBox();
+            this.textBox158 = new System.Windows.Forms.TextBox();
+            this.textBox159 = new System.Windows.Forms.TextBox();
+            this.textBox154 = new System.Windows.Forms.TextBox();
+            this.textBox155 = new System.Windows.Forms.TextBox();
+            this.textBox156 = new System.Windows.Forms.TextBox();
+            this.textBox151 = new System.Windows.Forms.TextBox();
+            this.textBox152 = new System.Windows.Forms.TextBox();
+            this.textBox153 = new System.Windows.Forms.TextBox();
+            this.textBox150 = new System.Windows.Forms.TextBox();
+            this.textBox148 = new System.Windows.Forms.TextBox();
+            this.label92 = new System.Windows.Forms.Label();
+            this.textBox149 = new System.Windows.Forms.TextBox();
+            this.label90 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
             this.label86 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
             this.label88 = new System.Windows.Forms.Label();
             this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.textBox148 = new System.Windows.Forms.TextBox();
-            this.textBox149 = new System.Windows.Forms.TextBox();
-            this.textBox150 = new System.Windows.Forms.TextBox();
-            this.textBox151 = new System.Windows.Forms.TextBox();
-            this.textBox152 = new System.Windows.Forms.TextBox();
-            this.textBox153 = new System.Windows.Forms.TextBox();
-            this.textBox154 = new System.Windows.Forms.TextBox();
-            this.textBox155 = new System.Windows.Forms.TextBox();
-            this.textBox156 = new System.Windows.Forms.TextBox();
-            this.textBox157 = new System.Windows.Forms.TextBox();
-            this.textBox158 = new System.Windows.Forms.TextBox();
-            this.textBox159 = new System.Windows.Forms.TextBox();
-            this.groupBox24 = new System.Windows.Forms.GroupBox();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
-            this.label96 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
-            this.label98 = new System.Windows.Forms.Label();
-            this.label99 = new System.Windows.Forms.Label();
-            this.label100 = new System.Windows.Forms.Label();
-            this.label102 = new System.Windows.Forms.Label();
-            this.textBox160 = new System.Windows.Forms.TextBox();
-            this.textBox161 = new System.Windows.Forms.TextBox();
-            this.label103 = new System.Windows.Forms.Label();
-            this.textBox162 = new System.Windows.Forms.TextBox();
-            this.textBox163 = new System.Windows.Forms.TextBox();
-            this.textBox164 = new System.Windows.Forms.TextBox();
-            this.textBox165 = new System.Windows.Forms.TextBox();
-            this.textBox166 = new System.Windows.Forms.TextBox();
-            this.groupBox25 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label104 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.textBox147 = new System.Windows.Forms.TextBox();
+            this.textBox146 = new System.Windows.Forms.TextBox();
+            this.textBox145 = new System.Windows.Forms.TextBox();
+            this.textBox144 = new System.Windows.Forms.TextBox();
+            this.textBox143 = new System.Windows.Forms.TextBox();
+            this.textBox140 = new System.Windows.Forms.TextBox();
+            this.textBox139 = new System.Windows.Forms.TextBox();
+            this.textBox138 = new System.Windows.Forms.TextBox();
+            this.label83 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.groupBox23 = new System.Windows.Forms.GroupBox();
             this.textBox167 = new System.Windows.Forms.TextBox();
             this.label106 = new System.Windows.Forms.Label();
-            this.textBox168 = new System.Windows.Forms.TextBox();
-            this.label107 = new System.Windows.Forms.Label();
-            this.label108 = new System.Windows.Forms.Label();
-            this.textBox169 = new System.Windows.Forms.TextBox();
-            this.textBox170 = new System.Windows.Forms.TextBox();
-            this.label109 = new System.Windows.Forms.Label();
-            this.label110 = new System.Windows.Forms.Label();
-            this.groupBox26 = new System.Windows.Forms.GroupBox();
-            this.label111 = new System.Windows.Forms.Label();
+            this.textBox136 = new System.Windows.Forms.TextBox();
+            this.textBox137 = new System.Windows.Forms.TextBox();
+            this.textBox134 = new System.Windows.Forms.TextBox();
+            this.textBox135 = new System.Windows.Forms.TextBox();
+            this.textBox132 = new System.Windows.Forms.TextBox();
+            this.textBox133 = new System.Windows.Forms.TextBox();
+            this.textBox131 = new System.Windows.Forms.TextBox();
+            this.textBox130 = new System.Windows.Forms.TextBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -388,10 +388,10 @@
             this.groupBox6.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.groupBox23.SuspendLayout();
-            this.groupBox24.SuspendLayout();
-            this.groupBox25.SuspendLayout();
             this.groupBox26.SuspendLayout();
+            this.groupBox25.SuspendLayout();
+            this.groupBox24.SuspendLayout();
+            this.groupBox23.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -2786,224 +2786,91 @@
             this.tabPage3.Text = "Затраты на разработку";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // label111
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(961, 1971);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Затраты на эксплуатацию";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.label111.AutoSize = true;
+            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label111.Location = new System.Drawing.Point(453, 871);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(467, 25);
+            this.label111.TabIndex = 78;
+            this.label111.Text = "Капитальные вложения на реализацию проекта:";
             // 
-            // tabPage5
+            // groupBox26
             // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(961, 1971);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Экономическая эффективность";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.groupBox26.Controls.Add(this.textBox170);
+            this.groupBox26.Controls.Add(this.label109);
+            this.groupBox26.Controls.Add(this.textBox169);
+            this.groupBox26.Controls.Add(this.label108);
+            this.groupBox26.Controls.Add(this.textBox142);
+            this.groupBox26.Controls.Add(this.textBox141);
+            this.groupBox26.Controls.Add(this.label77);
+            this.groupBox26.Controls.Add(this.label76);
+            this.groupBox26.Location = new System.Drawing.Point(481, 899);
+            this.groupBox26.Name = "groupBox26";
+            this.groupBox26.Size = new System.Drawing.Size(446, 320);
+            this.groupBox26.TabIndex = 76;
+            this.groupBox26.TabStop = false;
             // 
-            // label65
+            // textBox170
             // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label65.Location = new System.Drawing.Point(9, 362);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(419, 25);
-            this.label65.TabIndex = 0;
-            this.label65.Text = "Основная заработная плата разработчиков";
+            this.textBox170.Location = new System.Drawing.Point(303, 259);
+            this.textBox170.Name = "textBox170";
+            this.textBox170.Size = new System.Drawing.Size(100, 22);
+            this.textBox170.TabIndex = 74;
             // 
-            // label66
+            // label109
             // 
-            this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label66.Location = new System.Drawing.Point(21, 18);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(103, 20);
-            this.label66.TabIndex = 1;
-            this.label66.Text = "Должность";
+            this.label109.AutoSize = true;
+            this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label109.Location = new System.Drawing.Point(18, 221);
+            this.label109.MaximumSize = new System.Drawing.Size(260, 300);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(236, 60);
+            this.label109.TabIndex = 73;
+            this.label109.Text = "Uк – частота (периодичность) решения дней /год ";
             // 
-            // label67
+            // textBox169
             // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label67.Location = new System.Drawing.Point(154, 16);
-            this.label67.MaximumSize = new System.Drawing.Size(200, 300);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(179, 40);
-            this.label67.TabIndex = 2;
-            this.label67.Text = "Должностной оклад\r\n, руб.";
+            this.textBox169.Location = new System.Drawing.Point(303, 173);
+            this.textBox169.Name = "textBox169";
+            this.textBox169.Size = new System.Drawing.Size(100, 22);
+            this.textBox169.TabIndex = 72;
             // 
-            // label68
+            // label108
             // 
-            this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label68.Location = new System.Drawing.Point(350, 16);
-            this.label68.MaximumSize = new System.Drawing.Size(200, 300);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(165, 40);
-            this.label68.TabIndex = 3;
-            this.label68.Text = "Средняя дневная ставка";
+            this.label108.AutoSize = true;
+            this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label108.Location = new System.Drawing.Point(18, 155);
+            this.label108.MaximumSize = new System.Drawing.Size(260, 300);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(205, 40);
+            this.label108.TabIndex = 71;
+            this.label108.Text = "Затрачено машинного времени час/день";
             // 
-            // label69
+            // textBox142
             // 
-            this.label69.AutoSize = true;
-            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label69.Location = new System.Drawing.Point(531, 16);
-            this.label69.MaximumSize = new System.Drawing.Size(200, 300);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(199, 40);
-            this.label69.TabIndex = 4;
-            this.label69.Text = "Затраты времени на разработку, чел., дней";
+            this.textBox142.Location = new System.Drawing.Point(303, 103);
+            this.textBox142.Name = "textBox142";
+            this.textBox142.Size = new System.Drawing.Size(100, 22);
+            this.textBox142.TabIndex = 32;
             // 
-            // label70
+            // textBox141
             // 
-            this.label70.AutoSize = true;
-            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label70.Location = new System.Drawing.Point(761, 16);
-            this.label70.MaximumSize = new System.Drawing.Size(200, 300);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(88, 20);
-            this.label70.TabIndex = 5;
-            this.label70.Text = "ОЗП, руб.";
+            this.textBox141.Location = new System.Drawing.Point(303, 56);
+            this.textBox141.Name = "textBox141";
+            this.textBox141.Size = new System.Drawing.Size(100, 22);
+            this.textBox141.TabIndex = 31;
             // 
-            // label71
+            // label77
             // 
-            this.label71.AutoSize = true;
-            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label71.Location = new System.Drawing.Point(1, 89);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(129, 20);
-            this.label71.TabIndex = 6;
-            this.label71.Text = "Руководитель";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label72.Location = new System.Drawing.Point(1, 121);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(123, 20);
-            this.label72.TabIndex = 7;
-            this.label72.Text = "Программист";
-            // 
-            // textBox130
-            // 
-            this.textBox130.Location = new System.Drawing.Point(158, 91);
-            this.textBox130.Name = "textBox130";
-            this.textBox130.Size = new System.Drawing.Size(175, 22);
-            this.textBox130.TabIndex = 8;
-            // 
-            // textBox131
-            // 
-            this.textBox131.Location = new System.Drawing.Point(158, 121);
-            this.textBox131.Name = "textBox131";
-            this.textBox131.Size = new System.Drawing.Size(175, 22);
-            this.textBox131.TabIndex = 9;
-            // 
-            // textBox132
-            // 
-            this.textBox132.Location = new System.Drawing.Point(354, 119);
-            this.textBox132.Name = "textBox132";
-            this.textBox132.ReadOnly = true;
-            this.textBox132.Size = new System.Drawing.Size(161, 22);
-            this.textBox132.TabIndex = 11;
-            // 
-            // textBox133
-            // 
-            this.textBox133.Location = new System.Drawing.Point(354, 89);
-            this.textBox133.Name = "textBox133";
-            this.textBox133.ReadOnly = true;
-            this.textBox133.Size = new System.Drawing.Size(161, 22);
-            this.textBox133.TabIndex = 10;
-            // 
-            // textBox134
-            // 
-            this.textBox134.Location = new System.Drawing.Point(535, 119);
-            this.textBox134.Name = "textBox134";
-            this.textBox134.ReadOnly = true;
-            this.textBox134.Size = new System.Drawing.Size(161, 22);
-            this.textBox134.TabIndex = 13;
-            // 
-            // textBox135
-            // 
-            this.textBox135.Location = new System.Drawing.Point(535, 89);
-            this.textBox135.Name = "textBox135";
-            this.textBox135.ReadOnly = true;
-            this.textBox135.Size = new System.Drawing.Size(161, 22);
-            this.textBox135.TabIndex = 12;
-            // 
-            // textBox136
-            // 
-            this.textBox136.Location = new System.Drawing.Point(750, 119);
-            this.textBox136.Name = "textBox136";
-            this.textBox136.ReadOnly = true;
-            this.textBox136.Size = new System.Drawing.Size(161, 22);
-            this.textBox136.TabIndex = 15;
-            // 
-            // textBox137
-            // 
-            this.textBox137.Location = new System.Drawing.Point(750, 89);
-            this.textBox137.Name = "textBox137";
-            this.textBox137.ReadOnly = true;
-            this.textBox137.Size = new System.Drawing.Size(161, 22);
-            this.textBox137.TabIndex = 14;
-            // 
-            // groupBox23
-            // 
-            this.groupBox23.Controls.Add(this.textBox167);
-            this.groupBox23.Controls.Add(this.label106);
-            this.groupBox23.Controls.Add(this.textBox136);
-            this.groupBox23.Controls.Add(this.textBox137);
-            this.groupBox23.Controls.Add(this.textBox134);
-            this.groupBox23.Controls.Add(this.textBox135);
-            this.groupBox23.Controls.Add(this.textBox132);
-            this.groupBox23.Controls.Add(this.textBox133);
-            this.groupBox23.Controls.Add(this.textBox131);
-            this.groupBox23.Controls.Add(this.textBox130);
-            this.groupBox23.Controls.Add(this.label72);
-            this.groupBox23.Controls.Add(this.label71);
-            this.groupBox23.Controls.Add(this.label70);
-            this.groupBox23.Controls.Add(this.label69);
-            this.groupBox23.Controls.Add(this.label68);
-            this.groupBox23.Controls.Add(this.label67);
-            this.groupBox23.Controls.Add(this.label66);
-            this.groupBox23.Location = new System.Drawing.Point(9, 390);
-            this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(926, 187);
-            this.groupBox23.TabIndex = 16;
-            this.groupBox23.TabStop = false;
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label73.Location = new System.Drawing.Point(24, 43);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(306, 20);
-            this.label73.TabIndex = 17;
-            this.label73.Text = "Введите количество рабочих дней";
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label74.Location = new System.Drawing.Point(24, 76);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(373, 20);
-            this.label74.TabIndex = 18;
-            this.label74.Text = "Коэф., на отчисления в социальные нужды";
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label75.Location = new System.Drawing.Point(24, 105);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(314, 20);
-            this.label75.TabIndex = 19;
-            this.label75.Text = "Коэф., накладных расходов в долях";
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label77.Location = new System.Drawing.Point(18, 105);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(267, 20);
+            this.label77.TabIndex = 21;
+            this.label77.Text = "Количество оборудования шт.";
             // 
             // label76
             // 
@@ -3016,157 +2883,394 @@
             this.label76.TabIndex = 20;
             this.label76.Text = "Балансовая стоимость оборудования(компьютера) в руб.";
             // 
-            // label77
+            // label110
             // 
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label77.Location = new System.Drawing.Point(18, 105);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(267, 20);
-            this.label77.TabIndex = 21;
-            this.label77.Text = "Количество оборудования шт.";
+            this.label110.AutoSize = true;
+            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label110.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label110.Location = new System.Drawing.Point(233, 1490);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(46, 25);
+            this.label110.TabIndex = 75;
+            this.label110.Text = "К = ";
             // 
-            // label78
+            // label105
             // 
-            this.label78.AutoSize = true;
-            this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label78.Location = new System.Drawing.Point(24, 152);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(271, 20);
-            this.label78.TabIndex = 22;
-            this.label78.Text = "Машинное время ПК(час/день)";
+            this.label105.AutoSize = true;
+            this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label105.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label105.Location = new System.Drawing.Point(233, 1443);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(57, 25);
+            this.label105.TabIndex = 70;
+            this.label105.Text = "Кp = ";
             // 
-            // label79
+            // label104
             // 
-            this.label79.AutoSize = true;
-            this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label79.Location = new System.Drawing.Point(24, 182);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(304, 20);
-            this.label79.TabIndex = 23;
-            this.label79.Text = "Стоимость 1 часа работы ПК в руб";
+            this.label104.AutoSize = true;
+            this.label104.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label104.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label104.Location = new System.Drawing.Point(228, 1404);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(290, 25);
+            this.label104.TabIndex = 69;
+            this.label104.Text = "Капитальные вложения (K) = ";
             // 
-            // label80
+            // button3
             // 
-            this.label80.AutoSize = true;
-            this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label80.Location = new System.Drawing.Point(26, 208);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(260, 20);
-            this.label80.TabIndex = 24;
-            this.label80.Text = "Коэф., мультипрограммности";
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button3.Location = new System.Drawing.Point(14, 1403);
+            this.button3.MaximumSize = new System.Drawing.Size(300, 200);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(202, 34);
+            this.button3.TabIndex = 68;
+            this.button3.Text = "Рассчитать";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label81
+            // groupBox25
             // 
-            this.label81.AutoSize = true;
-            this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label81.Location = new System.Drawing.Point(24, 265);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(350, 20);
-            this.label81.TabIndex = 25;
-            this.label81.Text = "Коэф., учитывающийся для доп., ЗП";
+            this.groupBox25.Controls.Add(this.textBox168);
+            this.groupBox25.Controls.Add(this.label107);
+            this.groupBox25.Controls.Add(this.textBox165);
+            this.groupBox25.Controls.Add(this.textBox166);
+            this.groupBox25.Controls.Add(this.textBox162);
+            this.groupBox25.Controls.Add(this.textBox163);
+            this.groupBox25.Controls.Add(this.textBox164);
+            this.groupBox25.Controls.Add(this.textBox161);
+            this.groupBox25.Controls.Add(this.label103);
+            this.groupBox25.Controls.Add(this.label99);
+            this.groupBox25.Controls.Add(this.label96);
+            this.groupBox25.Controls.Add(this.label100);
+            this.groupBox25.Controls.Add(this.label97);
+            this.groupBox25.Controls.Add(this.label98);
+            this.groupBox25.Controls.Add(this.label94);
+            this.groupBox25.Controls.Add(this.label95);
+            this.groupBox25.Location = new System.Drawing.Point(8, 899);
+            this.groupBox25.Name = "groupBox25";
+            this.groupBox25.Size = new System.Drawing.Size(467, 475);
+            this.groupBox25.TabIndex = 67;
+            this.groupBox25.TabStop = false;
             // 
-            // label82
+            // textBox168
             // 
-            this.label82.AutoSize = true;
-            this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label82.Location = new System.Drawing.Point(24, 290);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(135, 20);
-            this.label82.TabIndex = 26;
-            this.label82.Text = "Коэф., отпуска";
+            this.textBox168.Location = new System.Drawing.Point(283, 236);
+            this.textBox168.Name = "textBox168";
+            this.textBox168.ReadOnly = true;
+            this.textBox168.Size = new System.Drawing.Size(161, 22);
+            this.textBox168.TabIndex = 68;
             // 
-            // label83
+            // label107
             // 
-            this.label83.AutoSize = true;
-            this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label83.Location = new System.Drawing.Point(24, 318);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(150, 20);
-            this.label83.TabIndex = 27;
-            this.label83.Text = "Районный коэф.,";
+            this.label107.AutoSize = true;
+            this.label107.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label107.Location = new System.Drawing.Point(22, 219);
+            this.label107.MaximumSize = new System.Drawing.Size(200, 200);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(113, 40);
+            this.label107.TabIndex = 67;
+            this.label107.Text = "Затраты на материалы";
             // 
-            // textBox138
+            // textBox165
             // 
-            this.textBox138.Location = new System.Drawing.Point(443, 41);
-            this.textBox138.Name = "textBox138";
-            this.textBox138.Size = new System.Drawing.Size(100, 22);
-            this.textBox138.TabIndex = 28;
+            this.textBox165.Location = new System.Drawing.Point(283, 312);
+            this.textBox165.Name = "textBox165";
+            this.textBox165.ReadOnly = true;
+            this.textBox165.Size = new System.Drawing.Size(161, 22);
+            this.textBox165.TabIndex = 66;
             // 
-            // textBox139
+            // textBox166
             // 
-            this.textBox139.Location = new System.Drawing.Point(443, 74);
-            this.textBox139.Name = "textBox139";
-            this.textBox139.Size = new System.Drawing.Size(100, 22);
-            this.textBox139.TabIndex = 29;
+            this.textBox166.Location = new System.Drawing.Point(283, 367);
+            this.textBox166.Name = "textBox166";
+            this.textBox166.ReadOnly = true;
+            this.textBox166.Size = new System.Drawing.Size(161, 22);
+            this.textBox166.TabIndex = 65;
             // 
-            // textBox140
+            // textBox162
             // 
-            this.textBox140.Location = new System.Drawing.Point(443, 103);
-            this.textBox140.Name = "textBox140";
-            this.textBox140.Size = new System.Drawing.Size(100, 22);
-            this.textBox140.TabIndex = 30;
+            this.textBox162.Location = new System.Drawing.Point(283, 118);
+            this.textBox162.Name = "textBox162";
+            this.textBox162.ReadOnly = true;
+            this.textBox162.Size = new System.Drawing.Size(161, 22);
+            this.textBox162.TabIndex = 64;
             // 
-            // textBox141
+            // textBox163
             // 
-            this.textBox141.Location = new System.Drawing.Point(290, 56);
-            this.textBox141.Name = "textBox141";
-            this.textBox141.ReadOnly = true;
-            this.textBox141.Size = new System.Drawing.Size(100, 22);
-            this.textBox141.TabIndex = 31;
+            this.textBox163.Location = new System.Drawing.Point(283, 168);
+            this.textBox163.Name = "textBox163";
+            this.textBox163.ReadOnly = true;
+            this.textBox163.Size = new System.Drawing.Size(161, 22);
+            this.textBox163.TabIndex = 63;
             // 
-            // textBox142
+            // textBox164
             // 
-            this.textBox142.Location = new System.Drawing.Point(290, 103);
-            this.textBox142.Name = "textBox142";
-            this.textBox142.ReadOnly = true;
-            this.textBox142.Size = new System.Drawing.Size(100, 22);
-            this.textBox142.TabIndex = 32;
+            this.textBox164.Location = new System.Drawing.Point(283, 60);
+            this.textBox164.Name = "textBox164";
+            this.textBox164.ReadOnly = true;
+            this.textBox164.Size = new System.Drawing.Size(161, 22);
+            this.textBox164.TabIndex = 62;
             // 
-            // textBox143
+            // textBox161
             // 
-            this.textBox143.Location = new System.Drawing.Point(375, 152);
-            this.textBox143.Name = "textBox143";
-            this.textBox143.Size = new System.Drawing.Size(100, 22);
-            this.textBox143.TabIndex = 33;
+            this.textBox161.Location = new System.Drawing.Point(283, 421);
+            this.textBox161.Name = "textBox161";
+            this.textBox161.ReadOnly = true;
+            this.textBox161.Size = new System.Drawing.Size(161, 22);
+            this.textBox161.TabIndex = 61;
             // 
-            // textBox144
+            // label103
             // 
-            this.textBox144.Location = new System.Drawing.Point(375, 180);
-            this.textBox144.Name = "textBox144";
-            this.textBox144.Size = new System.Drawing.Size(100, 22);
-            this.textBox144.TabIndex = 34;
+            this.label103.AutoSize = true;
+            this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label103.Location = new System.Drawing.Point(183, 424);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(63, 20);
+            this.label103.TabIndex = 60;
+            this.label103.Text = "Итого:";
+            this.label103.Click += new System.EventHandler(this.label103_Click);
             // 
-            // textBox145
+            // label99
             // 
-            this.textBox145.Location = new System.Drawing.Point(375, 208);
-            this.textBox145.Name = "textBox145";
-            this.textBox145.Size = new System.Drawing.Size(100, 22);
-            this.textBox145.TabIndex = 35;
+            this.label99.AutoSize = true;
+            this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label99.Location = new System.Drawing.Point(22, 350);
+            this.label99.MaximumSize = new System.Drawing.Size(200, 200);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(186, 40);
+            this.label99.TabIndex = 57;
+            this.label99.Text = "Накладные расходы организации ";
             // 
-            // textBox146
+            // label96
             // 
-            this.textBox146.Location = new System.Drawing.Point(186, 288);
-            this.textBox146.Name = "textBox146";
-            this.textBox146.Size = new System.Drawing.Size(100, 22);
-            this.textBox146.TabIndex = 36;
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label96.Location = new System.Drawing.Point(22, 151);
+            this.label96.MaximumSize = new System.Drawing.Size(200, 200);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(174, 40);
+            this.label96.TabIndex = 54;
+            this.label96.Text = "Отчисления на социальные нужды ";
             // 
-            // textBox147
+            // label100
             // 
-            this.textBox147.Location = new System.Drawing.Point(186, 316);
-            this.textBox147.Name = "textBox147";
-            this.textBox147.Size = new System.Drawing.Size(100, 22);
-            this.textBox147.TabIndex = 37;
+            this.label100.AutoSize = true;
+            this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label100.Location = new System.Drawing.Point(22, 295);
+            this.label100.MaximumSize = new System.Drawing.Size(200, 200);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(199, 40);
+            this.label100.TabIndex = 56;
+            this.label100.Text = "Затраты на машинное время";
             // 
-            // label84
+            // label97
             // 
-            this.label84.AutoSize = true;
-            this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label84.Location = new System.Drawing.Point(9, 592);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(233, 25);
-            this.label84.TabIndex = 38;
-            this.label84.Text = "Затраты на материалы";
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label97.Location = new System.Drawing.Point(22, 101);
+            this.label97.MaximumSize = new System.Drawing.Size(200, 200);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(157, 40);
+            this.label97.TabIndex = 53;
+            this.label97.Text = "Дополнительная зарплата";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label98.Location = new System.Drawing.Point(22, 60);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(255, 20);
+            this.label98.TabIndex = 52;
+            this.label98.Text = "Основная заработная плата ";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label94.Location = new System.Drawing.Point(316, 14);
+            this.label94.MaximumSize = new System.Drawing.Size(180, 300);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(104, 20);
+            this.label94.TabIndex = 51;
+            this.label94.Text = "Сумма, руб.";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label95.Location = new System.Drawing.Point(54, 14);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(135, 20);
+            this.label95.TabIndex = 50;
+            this.label95.Text = "Статьи затрат";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label93.Location = new System.Drawing.Point(9, 871);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(231, 25);
+            this.label93.TabIndex = 51;
+            this.label93.Text = "Затраты на разработку";
+            // 
+            // groupBox24
+            // 
+            this.groupBox24.Controls.Add(this.textBox160);
+            this.groupBox24.Controls.Add(this.label102);
+            this.groupBox24.Controls.Add(this.textBox157);
+            this.groupBox24.Controls.Add(this.textBox158);
+            this.groupBox24.Controls.Add(this.textBox159);
+            this.groupBox24.Controls.Add(this.textBox154);
+            this.groupBox24.Controls.Add(this.textBox155);
+            this.groupBox24.Controls.Add(this.textBox156);
+            this.groupBox24.Controls.Add(this.textBox151);
+            this.groupBox24.Controls.Add(this.textBox152);
+            this.groupBox24.Controls.Add(this.textBox153);
+            this.groupBox24.Controls.Add(this.textBox150);
+            this.groupBox24.Controls.Add(this.textBox148);
+            this.groupBox24.Controls.Add(this.label92);
+            this.groupBox24.Controls.Add(this.textBox149);
+            this.groupBox24.Controls.Add(this.label90);
+            this.groupBox24.Controls.Add(this.label85);
+            this.groupBox24.Controls.Add(this.label91);
+            this.groupBox24.Controls.Add(this.label86);
+            this.groupBox24.Controls.Add(this.label87);
+            this.groupBox24.Controls.Add(this.label88);
+            this.groupBox24.Controls.Add(this.label89);
+            this.groupBox24.Location = new System.Drawing.Point(15, 620);
+            this.groupBox24.Name = "groupBox24";
+            this.groupBox24.Size = new System.Drawing.Size(912, 232);
+            this.groupBox24.TabIndex = 50;
+            this.groupBox24.TabStop = false;
+            // 
+            // textBox160
+            // 
+            this.textBox160.Location = new System.Drawing.Point(737, 199);
+            this.textBox160.Name = "textBox160";
+            this.textBox160.ReadOnly = true;
+            this.textBox160.Size = new System.Drawing.Size(161, 22);
+            this.textBox160.TabIndex = 59;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label102.Location = new System.Drawing.Point(662, 201);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(63, 20);
+            this.label102.TabIndex = 58;
+            this.label102.Text = "Итого:";
+            // 
+            // textBox157
+            // 
+            this.textBox157.Location = new System.Drawing.Point(737, 159);
+            this.textBox157.Name = "textBox157";
+            this.textBox157.ReadOnly = true;
+            this.textBox157.Size = new System.Drawing.Size(161, 22);
+            this.textBox157.TabIndex = 49;
+            // 
+            // textBox158
+            // 
+            this.textBox158.Location = new System.Drawing.Point(737, 121);
+            this.textBox158.Name = "textBox158";
+            this.textBox158.ReadOnly = true;
+            this.textBox158.Size = new System.Drawing.Size(161, 22);
+            this.textBox158.TabIndex = 48;
+            // 
+            // textBox159
+            // 
+            this.textBox159.Location = new System.Drawing.Point(737, 63);
+            this.textBox159.Name = "textBox159";
+            this.textBox159.ReadOnly = true;
+            this.textBox159.Size = new System.Drawing.Size(161, 22);
+            this.textBox159.TabIndex = 47;
+            // 
+            // textBox154
+            // 
+            this.textBox154.Location = new System.Drawing.Point(603, 161);
+            this.textBox154.Name = "textBox154";
+            this.textBox154.Size = new System.Drawing.Size(100, 22);
+            this.textBox154.TabIndex = 46;
+            // 
+            // textBox155
+            // 
+            this.textBox155.Location = new System.Drawing.Point(603, 123);
+            this.textBox155.Name = "textBox155";
+            this.textBox155.Size = new System.Drawing.Size(100, 22);
+            this.textBox155.TabIndex = 45;
+            // 
+            // textBox156
+            // 
+            this.textBox156.Location = new System.Drawing.Point(603, 65);
+            this.textBox156.Name = "textBox156";
+            this.textBox156.Size = new System.Drawing.Size(100, 22);
+            this.textBox156.TabIndex = 44;
+            // 
+            // textBox151
+            // 
+            this.textBox151.Location = new System.Drawing.Point(445, 161);
+            this.textBox151.Name = "textBox151";
+            this.textBox151.Size = new System.Drawing.Size(103, 22);
+            this.textBox151.TabIndex = 43;
+            // 
+            // textBox152
+            // 
+            this.textBox152.Location = new System.Drawing.Point(445, 123);
+            this.textBox152.Name = "textBox152";
+            this.textBox152.Size = new System.Drawing.Size(103, 22);
+            this.textBox152.TabIndex = 42;
+            // 
+            // textBox153
+            // 
+            this.textBox153.Location = new System.Drawing.Point(445, 65);
+            this.textBox153.Name = "textBox153";
+            this.textBox153.Size = new System.Drawing.Size(103, 22);
+            this.textBox153.TabIndex = 41;
+            // 
+            // textBox150
+            // 
+            this.textBox150.Location = new System.Drawing.Point(220, 161);
+            this.textBox150.Name = "textBox150";
+            this.textBox150.Size = new System.Drawing.Size(175, 22);
+            this.textBox150.TabIndex = 40;
+            // 
+            // textBox148
+            // 
+            this.textBox148.Location = new System.Drawing.Point(220, 123);
+            this.textBox148.Name = "textBox148";
+            this.textBox148.Size = new System.Drawing.Size(175, 22);
+            this.textBox148.TabIndex = 17;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label92.Location = new System.Drawing.Point(8, 161);
+            this.label92.MaximumSize = new System.Drawing.Size(200, 200);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(149, 20);
+            this.label92.TabIndex = 39;
+            this.label92.Text = "Бумага офисная";
+            // 
+            // textBox149
+            // 
+            this.textBox149.Location = new System.Drawing.Point(220, 65);
+            this.textBox149.Name = "textBox149";
+            this.textBox149.Size = new System.Drawing.Size(175, 22);
+            this.textBox149.TabIndex = 16;
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label90.Location = new System.Drawing.Point(8, 103);
+            this.label90.MaximumSize = new System.Drawing.Size(200, 200);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(193, 40);
+            this.label90.TabIndex = 17;
+            this.label90.Text = "Тонер для лазерного принтера";
             // 
             // label85
             // 
@@ -3178,6 +3282,17 @@
             this.label85.Size = new System.Drawing.Size(88, 20);
             this.label85.TabIndex = 20;
             this.label85.Text = "ОЗП, руб.";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label91.Location = new System.Drawing.Point(8, 65);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(191, 20);
+            this.label91.TabIndex = 16;
+            this.label91.Text = "Компакт-диск CD-RW";
+            this.label91.Click += new System.EventHandler(this.label91_Click);
             // 
             // label86
             // 
@@ -3222,375 +3337,186 @@
             this.label89.TabIndex = 16;
             this.label89.Text = "Материалы";
             // 
-            // label90
-            // 
-            this.label90.AutoSize = true;
-            this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label90.Location = new System.Drawing.Point(8, 103);
-            this.label90.MaximumSize = new System.Drawing.Size(200, 200);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(193, 40);
-            this.label90.TabIndex = 17;
-            this.label90.Text = "Тонер для лазерного принтера";
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label91.Location = new System.Drawing.Point(8, 65);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(191, 20);
-            this.label91.TabIndex = 16;
-            this.label91.Text = "Компакт-диск CD-RW";
-            this.label91.Click += new System.EventHandler(this.label91_Click);
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label92.Location = new System.Drawing.Point(8, 161);
-            this.label92.MaximumSize = new System.Drawing.Size(200, 200);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(149, 20);
-            this.label92.TabIndex = 39;
-            this.label92.Text = "Бумага офисная";
-            // 
-            // textBox148
-            // 
-            this.textBox148.Location = new System.Drawing.Point(220, 123);
-            this.textBox148.Name = "textBox148";
-            this.textBox148.Size = new System.Drawing.Size(175, 22);
-            this.textBox148.TabIndex = 17;
-            // 
-            // textBox149
-            // 
-            this.textBox149.Location = new System.Drawing.Point(220, 65);
-            this.textBox149.Name = "textBox149";
-            this.textBox149.Size = new System.Drawing.Size(175, 22);
-            this.textBox149.TabIndex = 16;
-            // 
-            // textBox150
-            // 
-            this.textBox150.Location = new System.Drawing.Point(220, 161);
-            this.textBox150.Name = "textBox150";
-            this.textBox150.Size = new System.Drawing.Size(175, 22);
-            this.textBox150.TabIndex = 40;
-            // 
-            // textBox151
-            // 
-            this.textBox151.Location = new System.Drawing.Point(445, 161);
-            this.textBox151.Name = "textBox151";
-            this.textBox151.Size = new System.Drawing.Size(103, 22);
-            this.textBox151.TabIndex = 43;
-            // 
-            // textBox152
-            // 
-            this.textBox152.Location = new System.Drawing.Point(445, 123);
-            this.textBox152.Name = "textBox152";
-            this.textBox152.Size = new System.Drawing.Size(103, 22);
-            this.textBox152.TabIndex = 42;
-            // 
-            // textBox153
-            // 
-            this.textBox153.Location = new System.Drawing.Point(445, 65);
-            this.textBox153.Name = "textBox153";
-            this.textBox153.Size = new System.Drawing.Size(103, 22);
-            this.textBox153.TabIndex = 41;
-            // 
-            // textBox154
-            // 
-            this.textBox154.Location = new System.Drawing.Point(603, 161);
-            this.textBox154.Name = "textBox154";
-            this.textBox154.Size = new System.Drawing.Size(100, 22);
-            this.textBox154.TabIndex = 46;
-            // 
-            // textBox155
-            // 
-            this.textBox155.Location = new System.Drawing.Point(603, 123);
-            this.textBox155.Name = "textBox155";
-            this.textBox155.Size = new System.Drawing.Size(100, 22);
-            this.textBox155.TabIndex = 45;
-            // 
-            // textBox156
-            // 
-            this.textBox156.Location = new System.Drawing.Point(603, 65);
-            this.textBox156.Name = "textBox156";
-            this.textBox156.Size = new System.Drawing.Size(100, 22);
-            this.textBox156.TabIndex = 44;
-            // 
-            // textBox157
-            // 
-            this.textBox157.Location = new System.Drawing.Point(737, 159);
-            this.textBox157.Name = "textBox157";
-            this.textBox157.ReadOnly = true;
-            this.textBox157.Size = new System.Drawing.Size(161, 22);
-            this.textBox157.TabIndex = 49;
-            // 
-            // textBox158
-            // 
-            this.textBox158.Location = new System.Drawing.Point(737, 121);
-            this.textBox158.Name = "textBox158";
-            this.textBox158.ReadOnly = true;
-            this.textBox158.Size = new System.Drawing.Size(161, 22);
-            this.textBox158.TabIndex = 48;
-            // 
-            // textBox159
-            // 
-            this.textBox159.Location = new System.Drawing.Point(737, 63);
-            this.textBox159.Name = "textBox159";
-            this.textBox159.ReadOnly = true;
-            this.textBox159.Size = new System.Drawing.Size(161, 22);
-            this.textBox159.TabIndex = 47;
-            // 
-            // groupBox24
-            // 
-            this.groupBox24.Controls.Add(this.textBox160);
-            this.groupBox24.Controls.Add(this.label102);
-            this.groupBox24.Controls.Add(this.textBox157);
-            this.groupBox24.Controls.Add(this.textBox158);
-            this.groupBox24.Controls.Add(this.textBox159);
-            this.groupBox24.Controls.Add(this.textBox154);
-            this.groupBox24.Controls.Add(this.textBox155);
-            this.groupBox24.Controls.Add(this.textBox156);
-            this.groupBox24.Controls.Add(this.textBox151);
-            this.groupBox24.Controls.Add(this.textBox152);
-            this.groupBox24.Controls.Add(this.textBox153);
-            this.groupBox24.Controls.Add(this.textBox150);
-            this.groupBox24.Controls.Add(this.textBox148);
-            this.groupBox24.Controls.Add(this.label92);
-            this.groupBox24.Controls.Add(this.textBox149);
-            this.groupBox24.Controls.Add(this.label90);
-            this.groupBox24.Controls.Add(this.label85);
-            this.groupBox24.Controls.Add(this.label91);
-            this.groupBox24.Controls.Add(this.label86);
-            this.groupBox24.Controls.Add(this.label87);
-            this.groupBox24.Controls.Add(this.label88);
-            this.groupBox24.Controls.Add(this.label89);
-            this.groupBox24.Location = new System.Drawing.Point(15, 620);
-            this.groupBox24.Name = "groupBox24";
-            this.groupBox24.Size = new System.Drawing.Size(912, 232);
-            this.groupBox24.TabIndex = 50;
-            this.groupBox24.TabStop = false;
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label93.Location = new System.Drawing.Point(9, 871);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(231, 25);
-            this.label93.TabIndex = 51;
-            this.label93.Text = "Затраты на разработку";
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label94.Location = new System.Drawing.Point(316, 14);
-            this.label94.MaximumSize = new System.Drawing.Size(180, 300);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(104, 20);
-            this.label94.TabIndex = 51;
-            this.label94.Text = "Сумма, руб.";
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label95.Location = new System.Drawing.Point(54, 14);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(135, 20);
-            this.label95.TabIndex = 50;
-            this.label95.Text = "Статьи затрат";
-            // 
-            // label96
-            // 
-            this.label96.AutoSize = true;
-            this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label96.Location = new System.Drawing.Point(22, 151);
-            this.label96.MaximumSize = new System.Drawing.Size(200, 200);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(174, 40);
-            this.label96.TabIndex = 54;
-            this.label96.Text = "Отчисления на социальные нужды ";
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label97.Location = new System.Drawing.Point(22, 101);
-            this.label97.MaximumSize = new System.Drawing.Size(200, 200);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(157, 40);
-            this.label97.TabIndex = 53;
-            this.label97.Text = "Дополнительная зарплата";
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label98.Location = new System.Drawing.Point(22, 60);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(255, 20);
-            this.label98.TabIndex = 52;
-            this.label98.Text = "Основная заработная плата ";
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label99.Location = new System.Drawing.Point(22, 350);
-            this.label99.MaximumSize = new System.Drawing.Size(200, 200);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(186, 40);
-            this.label99.TabIndex = 57;
-            this.label99.Text = "Накладные расходы организации ";
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label100.Location = new System.Drawing.Point(22, 295);
-            this.label100.MaximumSize = new System.Drawing.Size(200, 200);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(199, 40);
-            this.label100.TabIndex = 56;
-            this.label100.Text = "Затраты на машинное время";
-            // 
-            // label102
-            // 
-            this.label102.AutoSize = true;
-            this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label102.Location = new System.Drawing.Point(662, 201);
-            this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(63, 20);
-            this.label102.TabIndex = 58;
-            this.label102.Text = "Итого:";
-            // 
-            // textBox160
-            // 
-            this.textBox160.Location = new System.Drawing.Point(737, 199);
-            this.textBox160.Name = "textBox160";
-            this.textBox160.ReadOnly = true;
-            this.textBox160.Size = new System.Drawing.Size(161, 22);
-            this.textBox160.TabIndex = 59;
-            // 
-            // textBox161
-            // 
-            this.textBox161.Location = new System.Drawing.Point(283, 421);
-            this.textBox161.Name = "textBox161";
-            this.textBox161.ReadOnly = true;
-            this.textBox161.Size = new System.Drawing.Size(161, 22);
-            this.textBox161.TabIndex = 61;
-            // 
-            // label103
-            // 
-            this.label103.AutoSize = true;
-            this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label103.Location = new System.Drawing.Point(183, 424);
-            this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(63, 20);
-            this.label103.TabIndex = 60;
-            this.label103.Text = "Итого:";
-            this.label103.Click += new System.EventHandler(this.label103_Click);
-            // 
-            // textBox162
-            // 
-            this.textBox162.Location = new System.Drawing.Point(283, 118);
-            this.textBox162.Name = "textBox162";
-            this.textBox162.ReadOnly = true;
-            this.textBox162.Size = new System.Drawing.Size(161, 22);
-            this.textBox162.TabIndex = 64;
-            // 
-            // textBox163
-            // 
-            this.textBox163.Location = new System.Drawing.Point(283, 168);
-            this.textBox163.Name = "textBox163";
-            this.textBox163.ReadOnly = true;
-            this.textBox163.Size = new System.Drawing.Size(161, 22);
-            this.textBox163.TabIndex = 63;
-            // 
-            // textBox164
-            // 
-            this.textBox164.Location = new System.Drawing.Point(283, 60);
-            this.textBox164.Name = "textBox164";
-            this.textBox164.ReadOnly = true;
-            this.textBox164.Size = new System.Drawing.Size(161, 22);
-            this.textBox164.TabIndex = 62;
-            // 
-            // textBox165
-            // 
-            this.textBox165.Location = new System.Drawing.Point(283, 312);
-            this.textBox165.Name = "textBox165";
-            this.textBox165.ReadOnly = true;
-            this.textBox165.Size = new System.Drawing.Size(161, 22);
-            this.textBox165.TabIndex = 66;
-            // 
-            // textBox166
-            // 
-            this.textBox166.Location = new System.Drawing.Point(283, 367);
-            this.textBox166.Name = "textBox166";
-            this.textBox166.ReadOnly = true;
-            this.textBox166.Size = new System.Drawing.Size(161, 22);
-            this.textBox166.TabIndex = 65;
-            // 
-            // groupBox25
-            // 
-            this.groupBox25.Controls.Add(this.textBox168);
-            this.groupBox25.Controls.Add(this.label107);
-            this.groupBox25.Controls.Add(this.textBox165);
-            this.groupBox25.Controls.Add(this.textBox166);
-            this.groupBox25.Controls.Add(this.textBox162);
-            this.groupBox25.Controls.Add(this.textBox163);
-            this.groupBox25.Controls.Add(this.textBox164);
-            this.groupBox25.Controls.Add(this.textBox161);
-            this.groupBox25.Controls.Add(this.label103);
-            this.groupBox25.Controls.Add(this.label99);
-            this.groupBox25.Controls.Add(this.label96);
-            this.groupBox25.Controls.Add(this.label100);
-            this.groupBox25.Controls.Add(this.label97);
-            this.groupBox25.Controls.Add(this.label98);
-            this.groupBox25.Controls.Add(this.label94);
-            this.groupBox25.Controls.Add(this.label95);
-            this.groupBox25.Location = new System.Drawing.Point(8, 899);
-            this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Size = new System.Drawing.Size(467, 475);
-            this.groupBox25.TabIndex = 67;
-            this.groupBox25.TabStop = false;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(14, 1403);
-            this.button3.MaximumSize = new System.Drawing.Size(300, 200);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(202, 34);
-            this.button3.TabIndex = 68;
-            this.button3.Text = "Рассчитать";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label104
-            // 
-            this.label104.AutoSize = true;
-            this.label104.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label104.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label104.Location = new System.Drawing.Point(228, 1404);
-            this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(290, 25);
-            this.label104.TabIndex = 69;
-            this.label104.Text = "Капитальные вложения (K) = ";
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label105.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label105.Location = new System.Drawing.Point(233, 1443);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(57, 25);
-            this.label105.TabIndex = 70;
-            this.label105.Text = "Кp = ";
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label84.Location = new System.Drawing.Point(9, 592);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(233, 25);
+            this.label84.TabIndex = 38;
+            this.label84.Text = "Затраты на материалы";
+            // 
+            // textBox147
+            // 
+            this.textBox147.Location = new System.Drawing.Point(186, 316);
+            this.textBox147.Name = "textBox147";
+            this.textBox147.Size = new System.Drawing.Size(100, 22);
+            this.textBox147.TabIndex = 37;
+            // 
+            // textBox146
+            // 
+            this.textBox146.Location = new System.Drawing.Point(186, 288);
+            this.textBox146.Name = "textBox146";
+            this.textBox146.Size = new System.Drawing.Size(100, 22);
+            this.textBox146.TabIndex = 36;
+            // 
+            // textBox145
+            // 
+            this.textBox145.Location = new System.Drawing.Point(375, 208);
+            this.textBox145.Name = "textBox145";
+            this.textBox145.Size = new System.Drawing.Size(100, 22);
+            this.textBox145.TabIndex = 35;
+            // 
+            // textBox144
+            // 
+            this.textBox144.Location = new System.Drawing.Point(375, 180);
+            this.textBox144.Name = "textBox144";
+            this.textBox144.Size = new System.Drawing.Size(100, 22);
+            this.textBox144.TabIndex = 34;
+            // 
+            // textBox143
+            // 
+            this.textBox143.Location = new System.Drawing.Point(375, 152);
+            this.textBox143.Name = "textBox143";
+            this.textBox143.Size = new System.Drawing.Size(100, 22);
+            this.textBox143.TabIndex = 33;
+            // 
+            // textBox140
+            // 
+            this.textBox140.Location = new System.Drawing.Point(443, 103);
+            this.textBox140.Name = "textBox140";
+            this.textBox140.Size = new System.Drawing.Size(100, 22);
+            this.textBox140.TabIndex = 30;
+            // 
+            // textBox139
+            // 
+            this.textBox139.Location = new System.Drawing.Point(443, 74);
+            this.textBox139.Name = "textBox139";
+            this.textBox139.Size = new System.Drawing.Size(100, 22);
+            this.textBox139.TabIndex = 29;
+            // 
+            // textBox138
+            // 
+            this.textBox138.Location = new System.Drawing.Point(443, 41);
+            this.textBox138.Name = "textBox138";
+            this.textBox138.Size = new System.Drawing.Size(100, 22);
+            this.textBox138.TabIndex = 28;
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label83.Location = new System.Drawing.Point(24, 318);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(150, 20);
+            this.label83.TabIndex = 27;
+            this.label83.Text = "Районный коэф.,";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label82.Location = new System.Drawing.Point(24, 290);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(135, 20);
+            this.label82.TabIndex = 26;
+            this.label82.Text = "Коэф., отпуска";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label81.Location = new System.Drawing.Point(24, 265);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(350, 20);
+            this.label81.TabIndex = 25;
+            this.label81.Text = "Коэф., учитывающийся для доп., ЗП";
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label80.Location = new System.Drawing.Point(26, 208);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(260, 20);
+            this.label80.TabIndex = 24;
+            this.label80.Text = "Коэф., мультипрограммности";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label79.Location = new System.Drawing.Point(24, 182);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(304, 20);
+            this.label79.TabIndex = 23;
+            this.label79.Text = "Стоимость 1 часа работы ПК в руб";
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label78.Location = new System.Drawing.Point(24, 152);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(271, 20);
+            this.label78.TabIndex = 22;
+            this.label78.Text = "Машинное время ПК(час/день)";
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label75.Location = new System.Drawing.Point(24, 105);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(314, 20);
+            this.label75.TabIndex = 19;
+            this.label75.Text = "Коэф., накладных расходов в долях";
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label74.Location = new System.Drawing.Point(24, 76);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(373, 20);
+            this.label74.TabIndex = 18;
+            this.label74.Text = "Коэф., на отчисления в социальные нужды";
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label73.Location = new System.Drawing.Point(24, 43);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(306, 20);
+            this.label73.TabIndex = 17;
+            this.label73.Text = "Введите количество рабочих дней";
+            // 
+            // groupBox23
+            // 
+            this.groupBox23.Controls.Add(this.textBox167);
+            this.groupBox23.Controls.Add(this.label106);
+            this.groupBox23.Controls.Add(this.textBox136);
+            this.groupBox23.Controls.Add(this.textBox137);
+            this.groupBox23.Controls.Add(this.textBox134);
+            this.groupBox23.Controls.Add(this.textBox135);
+            this.groupBox23.Controls.Add(this.textBox132);
+            this.groupBox23.Controls.Add(this.textBox133);
+            this.groupBox23.Controls.Add(this.textBox131);
+            this.groupBox23.Controls.Add(this.textBox130);
+            this.groupBox23.Controls.Add(this.label72);
+            this.groupBox23.Controls.Add(this.label71);
+            this.groupBox23.Controls.Add(this.label70);
+            this.groupBox23.Controls.Add(this.label69);
+            this.groupBox23.Controls.Add(this.label68);
+            this.groupBox23.Controls.Add(this.label67);
+            this.groupBox23.Controls.Add(this.label66);
+            this.groupBox23.Location = new System.Drawing.Point(9, 390);
+            this.groupBox23.Name = "groupBox23";
+            this.groupBox23.Size = new System.Drawing.Size(926, 187);
+            this.groupBox23.TabIndex = 16;
+            this.groupBox23.TabStop = false;
             // 
             // textBox167
             // 
@@ -3610,99 +3536,169 @@
             this.label106.TabIndex = 60;
             this.label106.Text = "Итого:";
             // 
-            // textBox168
+            // textBox136
             // 
-            this.textBox168.Location = new System.Drawing.Point(283, 236);
-            this.textBox168.Name = "textBox168";
-            this.textBox168.ReadOnly = true;
-            this.textBox168.Size = new System.Drawing.Size(161, 22);
-            this.textBox168.TabIndex = 68;
+            this.textBox136.Location = new System.Drawing.Point(750, 119);
+            this.textBox136.Name = "textBox136";
+            this.textBox136.ReadOnly = true;
+            this.textBox136.Size = new System.Drawing.Size(161, 22);
+            this.textBox136.TabIndex = 15;
             // 
-            // label107
+            // textBox137
             // 
-            this.label107.AutoSize = true;
-            this.label107.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label107.Location = new System.Drawing.Point(22, 219);
-            this.label107.MaximumSize = new System.Drawing.Size(200, 200);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(113, 40);
-            this.label107.TabIndex = 67;
-            this.label107.Text = "Затраты на материалы";
+            this.textBox137.Location = new System.Drawing.Point(750, 89);
+            this.textBox137.Name = "textBox137";
+            this.textBox137.ReadOnly = true;
+            this.textBox137.Size = new System.Drawing.Size(161, 22);
+            this.textBox137.TabIndex = 14;
             // 
-            // label108
+            // textBox134
             // 
-            this.label108.AutoSize = true;
-            this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label108.Location = new System.Drawing.Point(18, 155);
-            this.label108.MaximumSize = new System.Drawing.Size(260, 300);
-            this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(205, 40);
-            this.label108.TabIndex = 71;
-            this.label108.Text = "Затрачено машинного времени час/день";
+            this.textBox134.Location = new System.Drawing.Point(535, 119);
+            this.textBox134.Name = "textBox134";
+            this.textBox134.ReadOnly = true;
+            this.textBox134.Size = new System.Drawing.Size(161, 22);
+            this.textBox134.TabIndex = 13;
             // 
-            // textBox169
+            // textBox135
             // 
-            this.textBox169.Location = new System.Drawing.Point(290, 173);
-            this.textBox169.Name = "textBox169";
-            this.textBox169.ReadOnly = true;
-            this.textBox169.Size = new System.Drawing.Size(100, 22);
-            this.textBox169.TabIndex = 72;
+            this.textBox135.Location = new System.Drawing.Point(535, 89);
+            this.textBox135.Name = "textBox135";
+            this.textBox135.ReadOnly = true;
+            this.textBox135.Size = new System.Drawing.Size(161, 22);
+            this.textBox135.TabIndex = 12;
             // 
-            // textBox170
+            // textBox132
             // 
-            this.textBox170.Location = new System.Drawing.Point(290, 259);
-            this.textBox170.Name = "textBox170";
-            this.textBox170.ReadOnly = true;
-            this.textBox170.Size = new System.Drawing.Size(100, 22);
-            this.textBox170.TabIndex = 74;
+            this.textBox132.Location = new System.Drawing.Point(354, 119);
+            this.textBox132.Name = "textBox132";
+            this.textBox132.ReadOnly = true;
+            this.textBox132.Size = new System.Drawing.Size(161, 22);
+            this.textBox132.TabIndex = 11;
             // 
-            // label109
+            // textBox133
             // 
-            this.label109.AutoSize = true;
-            this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label109.Location = new System.Drawing.Point(18, 221);
-            this.label109.MaximumSize = new System.Drawing.Size(260, 300);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(236, 60);
-            this.label109.TabIndex = 73;
-            this.label109.Text = "Uк – частота (периодичность) решения дней /год ";
+            this.textBox133.Location = new System.Drawing.Point(354, 89);
+            this.textBox133.Name = "textBox133";
+            this.textBox133.ReadOnly = true;
+            this.textBox133.Size = new System.Drawing.Size(161, 22);
+            this.textBox133.TabIndex = 10;
             // 
-            // label110
+            // textBox131
             // 
-            this.label110.AutoSize = true;
-            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label110.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label110.Location = new System.Drawing.Point(233, 1490);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(46, 25);
-            this.label110.TabIndex = 75;
-            this.label110.Text = "К = ";
+            this.textBox131.Location = new System.Drawing.Point(158, 121);
+            this.textBox131.Name = "textBox131";
+            this.textBox131.Size = new System.Drawing.Size(175, 22);
+            this.textBox131.TabIndex = 9;
             // 
-            // groupBox26
+            // textBox130
             // 
-            this.groupBox26.Controls.Add(this.textBox170);
-            this.groupBox26.Controls.Add(this.label109);
-            this.groupBox26.Controls.Add(this.textBox169);
-            this.groupBox26.Controls.Add(this.label108);
-            this.groupBox26.Controls.Add(this.textBox142);
-            this.groupBox26.Controls.Add(this.textBox141);
-            this.groupBox26.Controls.Add(this.label77);
-            this.groupBox26.Controls.Add(this.label76);
-            this.groupBox26.Location = new System.Drawing.Point(481, 899);
-            this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(457, 338);
-            this.groupBox26.TabIndex = 76;
-            this.groupBox26.TabStop = false;
+            this.textBox130.Location = new System.Drawing.Point(158, 91);
+            this.textBox130.Name = "textBox130";
+            this.textBox130.Size = new System.Drawing.Size(175, 22);
+            this.textBox130.TabIndex = 8;
             // 
-            // label111
+            // label72
             // 
-            this.label111.AutoSize = true;
-            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label111.Location = new System.Drawing.Point(453, 871);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(467, 25);
-            this.label111.TabIndex = 78;
-            this.label111.Text = "Капитальные вложения на реализацию проекта:";
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label72.Location = new System.Drawing.Point(1, 121);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(123, 20);
+            this.label72.TabIndex = 7;
+            this.label72.Text = "Программист";
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label71.Location = new System.Drawing.Point(1, 89);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(129, 20);
+            this.label71.TabIndex = 6;
+            this.label71.Text = "Руководитель";
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label70.Location = new System.Drawing.Point(761, 16);
+            this.label70.MaximumSize = new System.Drawing.Size(200, 300);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(88, 20);
+            this.label70.TabIndex = 5;
+            this.label70.Text = "ОЗП, руб.";
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label69.Location = new System.Drawing.Point(531, 16);
+            this.label69.MaximumSize = new System.Drawing.Size(200, 300);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(199, 40);
+            this.label69.TabIndex = 4;
+            this.label69.Text = "Затраты времени на разработку, чел., дней";
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label68.Location = new System.Drawing.Point(350, 16);
+            this.label68.MaximumSize = new System.Drawing.Size(200, 300);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(165, 40);
+            this.label68.TabIndex = 3;
+            this.label68.Text = "Средняя дневная ставка";
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label67.Location = new System.Drawing.Point(154, 16);
+            this.label67.MaximumSize = new System.Drawing.Size(200, 300);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(179, 40);
+            this.label67.TabIndex = 2;
+            this.label67.Text = "Должностной оклад\r\n, руб.";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label66.Location = new System.Drawing.Point(21, 18);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(103, 20);
+            this.label66.TabIndex = 1;
+            this.label66.Text = "Должность";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label65.Location = new System.Drawing.Point(9, 362);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(419, 25);
+            this.label65.TabIndex = 0;
+            this.label65.Text = "Основная заработная плата разработчиков";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(961, 1971);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Затраты на эксплуатацию";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 25);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(961, 1971);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Экономическая эффективность";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -3763,14 +3759,14 @@
             this.groupBox3.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.groupBox23.ResumeLayout(false);
-            this.groupBox23.PerformLayout();
-            this.groupBox24.ResumeLayout(false);
-            this.groupBox24.PerformLayout();
-            this.groupBox25.ResumeLayout(false);
-            this.groupBox25.PerformLayout();
             this.groupBox26.ResumeLayout(false);
             this.groupBox26.PerformLayout();
+            this.groupBox25.ResumeLayout(false);
+            this.groupBox25.PerformLayout();
+            this.groupBox24.ResumeLayout(false);
+            this.groupBox24.PerformLayout();
+            this.groupBox23.ResumeLayout(false);
+            this.groupBox23.PerformLayout();
             this.ResumeLayout(false);
 
         }

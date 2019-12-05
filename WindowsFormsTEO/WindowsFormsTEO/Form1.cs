@@ -1423,6 +1423,9 @@ namespace WindowsFormsTEO
 
         private void button3_Click(object sender, EventArgs e)
         {
+            day1 = 0;
+            day2 = 0;
+            button2_Click(sender, e);
             double K = 0, Kp = 0, Kp2 = 0, Wd = 0, Wc = 0, Wh = 0, rabDayMounth = 0;
             double okl1 = 0, okl2 = 0;//оклады
             double srDaySt1 = 0, srDaySt2 = 0;//средне дневная ставка
@@ -1572,6 +1575,9 @@ namespace WindowsFormsTEO
 
                 label105.Text ="Кр = " + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8))).ToString();
                 label110.Text = "К = " + (Kp + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8)))).ToString();
+                day1 = 0;
+                day2 = 0;
+                Cm = 0;
             }
 
         }
