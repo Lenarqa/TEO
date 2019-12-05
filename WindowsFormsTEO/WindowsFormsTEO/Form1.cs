@@ -152,6 +152,18 @@ namespace WindowsFormsTEO
             textBox217.Text = "2,6";
             textBox219.Text = "0,05";
 
+            textBox236.Text = "37300";
+            textBox233.Text = "12000";
+            textBox234.Text = "22500";
+            textBox235.Text = "9000";
+            textBox237.Text = "0";
+
+            //5вкладка
+            textBox229.Text = "0,33";
+            textBox238.Text = "1,6";
+            textBox239.Text = "1";
+
+
             comboBox2.SelectedItem = "1";
             comboBox3.SelectedItem = "1";
             comboBox4.SelectedItem = "1";
@@ -1573,6 +1585,62 @@ namespace WindowsFormsTEO
             textBox201.Text = Math.Round(yearZatrSum2, 2).ToString();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ///Приведенные затраты Зi на единицу работ
+            double zatr1 = 0, zatr2 = 0;
+            zatr1 = Convert.ToDouble(textBox202.Text) + Convert.ToDouble(textBox229.Text) * Convert.ToDouble(textBox232.Text);
+            zatr2 = Convert.ToDouble(textBox201.Text) + Convert.ToDouble(textBox229.Text) * Convert.ToDouble(textBox237.Text);
+
+            textBox224.Text = Math.Round(zatr2, 2).ToString();
+            textBox226.Text = Math.Round(zatr1, 2).ToString();
+
+            //себестоимость
+            textBox221.Text = Math.Round(Convert.ToDouble(textBox201.Text), 2).ToString();
+            textBox228.Text = Math.Round(Convert.ToDouble(textBox202.Text), 2).ToString();
+
+            //суммарные затраты
+            textBox222.Text = Math.Round(Convert.ToDouble(textBox237.Text), 2).ToString();
+            textBox227.Text = Math.Round(Convert.ToDouble(textBox232.Text), 2).ToString();
+
+            //эффект от использования разрабатываемой
+
+            double Effect = 0;
+            Effect = (zatr2 * Convert.ToDouble(textBox238.Text) - zatr1) * Convert.ToDouble(textBox239.Text);
+            textBox223.Text = Math.Round(Effect, 2).ToString();
+
+            //срок окупаемости затрат на разработку продукта по формуле
+            textBox225.Text = Math.Round(Convert.ToDouble(textBox227.Text) / Convert.ToDouble(textBox223.Text), 2).ToString();
+
+            //фактический коэффициент экономической эффективности разработки (Еф) 
+            double Ef = 0;
+            Ef = 1 / Convert.ToDouble(textBox225.Text);
+            textBox240.Text = Math.Round(Ef, 2).ToString();
+
+            if (Ef > Convert.ToDouble(textBox229.Text))
+            {
+                label175.Text = "Ef > Eh разработка и внедрение разрабатываемого продукта является эффективной.";
+            }
+            else if (Ef < Convert.ToDouble(textBox229.Text))
+            {
+                label175.Text = "Ef < Eh разработка и внедрение разрабатываемого продукта является не эффективной.";
+            }
+            else
+            {
+                label175.Text = "Ef = Eh";
+            }
+
+            //Результаты экономического обоснования проекта
+            textBox243.Text = Math.Round(Convert.ToDouble(textBox227.Text), 2).ToString();
+            textBox242.Text = Math.Round(Convert.ToDouble(textBox228.Text), 2).ToString();
+            textBox241.Text = Math.Round(Convert.ToDouble(textBox223.Text), 2).ToString();
+            textBox245.Text = Math.Round(Convert.ToDouble(textBox240.Text), 2).ToString();
+            textBox244.Text = Math.Round(Convert.ToDouble(textBox225.Text), 2).ToString();
+
+
+        }
+
+
         private void button3_Click(object sender, EventArgs e)
         {
             double Cm = 0; //затраты на материалы.
@@ -1589,6 +1657,7 @@ namespace WindowsFormsTEO
             double Yj;//коэффициент загрузки 
             double Tj;//Время работы технического средства 
 
+           
 
             if (textBox146.Text.Equals(""))
             {
@@ -1715,8 +1784,9 @@ namespace WindowsFormsTEO
                 Mv = Convert.ToDouble(textBox143.Text) * Convert.ToDouble(textBox144.Text) * day2 * Convert.ToDouble(textBox145.Text);
 
                 Kp = ((1 + Wd)*(1 + Wc) + Wh) * ozpSum + Cm + Mv;
-                label104.Text = "Капитальные вложения(Kп) = " + Math.Round(Kp, 2).ToString();
-                //label104.Text = day1 + " " + day2;
+                //label104.Text = "Капитальные вложения(Kп) = " + Math.Round(Kp, 2).ToString();
+                textBox230.Text = Math.Round(Kp, 2).ToString();
+
                 textBox164.Text = Math.Round(ozpSum, 2).ToString();
                 textBox166.Text = Math.Round(Wh, 2).ToString();
                 textBox168.Text = Math.Round(Cm, 2).ToString();
@@ -1726,11 +1796,19 @@ namespace WindowsFormsTEO
                 textBox166.Text = Math.Round((ozpSum * Wh), 2).ToString();
                 textBox161.Text = Math.Round((ozpSum + Wh + Cm + Mv + (ozpSum * Wd) + ((ozpSum + (ozpSum * Wd)) * Wc) + (ozpSum * Wh)), 2).ToString();
 
-                label105.Text ="Кр = " + Math.Round((Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8))), 2).ToString();
-                label110.Text = "К = " + Math.Round((Kp + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8)))), 2).ToString();
+                
+                textBox237.Text = Math.Round((Convert.ToDouble(textBox236.Text) + Convert.ToDouble(textBox233.Text) + Convert.ToDouble(textBox234.Text) + Convert.ToDouble(textBox235.Text)), 2).ToString();
+
+                textBox231.Text = Math.Round((Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8))), 2).ToString();
+                textBox232.Text = Math.Round((Kp + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8)))), 2).ToString();
+
+                //label105.Text ="Кр = " + Math.Round((Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8))), 2).ToString();
+                //label110.Text = "К = " + Math.Round((Kp + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8)))), 2).ToString();
+
+
                 //day1 = 0;
                 //day2 = 0;
-                
+
             }
 
         }
@@ -1867,6 +1945,8 @@ namespace WindowsFormsTEO
                 Sum = 0;
                 label19.Text = "J1 = ? J2 = ?  Ak = ?";
             }
+
+           
             //textBox10.Text = Sum.ToString(); проверка
             label18.Text = "Коэффициент весомости = " + Sum;
             Ak = 0;
