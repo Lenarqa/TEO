@@ -1421,6 +1421,50 @@ namespace WindowsFormsTEO
 
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double Czp1 = 0, Czp2 = 0; //Затраты на заработную плату основную и дополнительную с отчислениями 
+            double srZpDay11 = 0, srZpDay12 = 0, srZpDay21 = 0, srZpDay22 = 0, SumZp1 = 0, SumZp2 = 0;
+            double colDay;
+            double Wd = 0, Wc = 0;
+            double Ca = 0; //Сумма амортизационных отчислений.
+
+            Wd = Convert.ToDouble(textBox205.Text) + Convert.ToDouble(textBox204.Text);
+            Wc = Convert.ToDouble(textBox206.Text);
+
+            colDay = Convert.ToDouble(textBox203.Text);
+
+            srZpDay11 = Convert.ToDouble(textBox171.Text) / colDay;
+            srZpDay12 = Convert.ToDouble(textBox172.Text) / colDay;
+
+            textBox174.Text = Math.Round(srZpDay11, 2).ToString();
+            textBox173.Text = Math.Round(srZpDay12, 2).ToString();
+
+            textBox176.Text = Math.Round((srZpDay11 * Convert.ToDouble(textBox178.Text) * (1 + Wd) * (1 + Wc)), 2).ToString();
+            textBox175.Text = Math.Round((srZpDay12 * Convert.ToDouble(textBox177.Text) * (1 + Wd) * (1 + Wc)), 2).ToString();
+
+            textBox179.Text = Math.Round((Convert.ToDouble(textBox176.Text)+ Convert.ToDouble(textBox175.Text)), 2).ToString();
+            SumZp1 = Convert.ToDouble(textBox179.Text);
+
+            Czp1 = SumZp1;
+            textBox191.Text = Math.Round(Czp1, 2).ToString();
+
+            srZpDay21 = Convert.ToDouble(textBox188.Text) / colDay;
+            srZpDay22 = Convert.ToDouble(textBox187.Text) / colDay;
+
+            textBox186.Text = Math.Round(srZpDay21, 2).ToString();
+            textBox185.Text = Math.Round(srZpDay22, 2).ToString();
+
+            textBox182.Text = Math.Round((srZpDay21 * Convert.ToDouble(textBox184.Text) * (1 + Wd) * (1 + Wc)), 2).ToString();
+            textBox181.Text = Math.Round((srZpDay22 * Convert.ToDouble(textBox183.Text) * (1 + Wd) * (1 + Wc)), 2).ToString();
+
+            textBox180.Text = Math.Round((Convert.ToDouble(textBox182.Text) + Convert.ToDouble(textBox181.Text)), 2).ToString();
+            SumZp2 = Convert.ToDouble(textBox180.Text);
+
+            Czp2 = SumZp2;
+            textBox200.Text = Math.Round(Czp2, 2).ToString();
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             double Cm = 0; //затраты на материалы.
