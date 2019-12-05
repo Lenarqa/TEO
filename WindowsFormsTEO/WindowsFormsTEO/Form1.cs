@@ -115,6 +115,43 @@ namespace WindowsFormsTEO
             textBox161.Text = "0";
             textBox165.Text = "0";
 
+            ///4 вкладка
+            textBox203.Text = "21";
+            textBox206.Text = "0,302";
+            textBox205.Text = "0,1";
+            textBox204.Text = "0,3";
+            textBox215.Text = "247";
+            textBox216.Text = "8";
+            textBox171.Text = "0";
+            textBox172.Text = "0";
+            textBox178.Text = "0";
+            textBox177.Text = "0";
+            textBox188.Text = "0";
+            textBox187.Text = "0";
+            textBox184.Text = "0";
+            textBox183.Text = "0";
+
+            textBox178.Text = "0";
+            textBox177.Text = "0";
+            textBox188.Text = "0";
+            textBox187.Text = "0";
+            textBox184.Text = "0";
+            textBox183.Text = "0";
+
+            textBox207.Text = "22500";
+            textBox212.Text = "0,2";
+            textBox214.Text = "1";
+            textBox210.Text = "0,4";
+            textBox218.Text = "2,6";
+            textBox220.Text = "0,05";
+
+            textBox208.Text = "22500";
+            textBox211.Text = "0,2";
+            textBox213.Text = "1";
+            textBox209.Text = "0,4";
+            textBox217.Text = "2,6";
+            textBox219.Text = "0,05";
+
             comboBox2.SelectedItem = "1";
             comboBox3.SelectedItem = "1";
             comboBox4.SelectedItem = "1";
@@ -1428,6 +1465,13 @@ namespace WindowsFormsTEO
             double colDay;
             double Wd = 0, Wc = 0;
             double Ca = 0; //Сумма амортизационных отчислений.
+            double balanceCost1 = 0, balanceCost2 = 0;
+            double tj1, tj2;//время работы
+            double Fbj = 0; //эффективный фонд времени работы оборудования в год, час;
+            double aj1 = 0, aj2 = 0;//норма годовых амортизационных отчислений для j-гo вида оборудования;
+            double g1 = 0, g2 = 0;//количество единиц оборудования j-гo вида.
+            double Ca1 = 0, Ca2 = 0;
+
 
             Wd = Convert.ToDouble(textBox205.Text) + Convert.ToDouble(textBox204.Text);
             Wc = Convert.ToDouble(textBox206.Text);
@@ -1463,6 +1507,70 @@ namespace WindowsFormsTEO
 
             Czp2 = SumZp2;
             textBox200.Text = Math.Round(Czp2, 2).ToString();
+            
+            
+            ////Амортизационные отчисления ////
+            balanceCost1 = Convert.ToDouble(textBox207.Text);
+            balanceCost2 = Convert.ToDouble(textBox208.Text);
+
+            tj1 = ((Convert.ToDouble(textBox178.Text)+ Convert.ToDouble(textBox177.Text))* Convert.ToDouble(textBox216.Text));
+            tj2 = ((Convert.ToDouble(textBox184.Text) + Convert.ToDouble(textBox183.Text)) * Convert.ToDouble(textBox216.Text));
+
+            Fbj = Convert.ToDouble(textBox215.Text) * Convert.ToDouble(textBox216.Text);
+
+            aj1 = Convert.ToDouble(textBox212.Text);
+            aj2 = Convert.ToDouble(textBox211.Text);
+
+            g1 = Convert.ToDouble(textBox214.Text);
+            g2 = Convert.ToDouble(textBox213.Text);
+
+            Ca1 = (balanceCost1*tj1*aj1*g1) / Fbj;
+            Ca2 = (balanceCost2 * tj2 * aj2 * g2) / Fbj;
+
+            textBox190.Text = Math.Round(Ca1, 2).ToString();
+            textBox199.Text = Math.Round(Ca2, 2).ToString();
+
+            ///Затраты на силовую энергию рассчитываются по формуле///
+            double Z1 = 0, Z2 = 0;
+            Z1 = Convert.ToDouble(textBox210.Text) * tj1 * g1 * Convert.ToDouble(textBox218.Text);
+            Z2 = Convert.ToDouble(textBox209.Text) * tj2 * g2 * Convert.ToDouble(textBox217.Text);
+
+            textBox189.Text = Math.Round(Z1, 2).ToString();
+            textBox198.Text = Math.Round(Z2, 2).ToString();
+
+            ///Затраты на текущий ремонт оборудования рассчитываются по формуле///
+            double Zrem1 = 0, Zrem2 = 0;
+            Zrem1 = (Convert.ToDouble(textBox220.Text) * balanceCost1 * tj1) / Fbj;
+            Zrem2 = (Convert.ToDouble(textBox219.Text) * balanceCost2 * tj2) / Fbj;
+
+            textBox194.Text = Math.Round(Zrem1, 2).ToString();
+            textBox197.Text = Math.Round(Zrem2, 2).ToString();
+
+            ///Затраты на материалы, потребляемые в течение года
+            textBox193.Text = Math.Round((balanceCost1/100), 2).ToString();
+            textBox196.Text = Math.Round((balanceCost2 / 100), 2).ToString();
+
+            ///Накладные расходы 
+            double nakRash1 = 0, nakRash2 = 0;
+
+            nakRash1 = (Convert.ToDouble(textBox191.Text)+ Convert.ToDouble(textBox190.Text)+ Convert.ToDouble(textBox189.Text)+
+                Convert.ToDouble(textBox194.Text)+ Convert.ToDouble(textBox193.Text))*0.2;
+            nakRash2 = (Convert.ToDouble(textBox200.Text) + Convert.ToDouble(textBox199.Text) + Convert.ToDouble(textBox198.Text) +
+                Convert.ToDouble(textBox197.Text) + Convert.ToDouble(textBox196.Text)) * 0.2;
+
+            textBox192.Text = Math.Round(nakRash1, 2).ToString();
+            textBox195.Text = Math.Round(nakRash2, 2).ToString();
+
+            ///Итого 
+            double yearZatrSum1 = 0, yearZatrSum2 = 0;
+            yearZatrSum1 = Convert.ToDouble(textBox191.Text) + Convert.ToDouble(textBox190.Text) + Convert.ToDouble(textBox189.Text) +
+                Convert.ToDouble(textBox194.Text) + Convert.ToDouble(textBox193.Text) + Convert.ToDouble(textBox192.Text);
+
+            yearZatrSum2 = Convert.ToDouble(textBox200.Text) + Convert.ToDouble(textBox199.Text) + Convert.ToDouble(textBox198.Text) +
+                Convert.ToDouble(textBox197.Text) + Convert.ToDouble(textBox196.Text) + Convert.ToDouble(textBox195.Text);
+
+            textBox202.Text = Math.Round(yearZatrSum1, 2).ToString();
+            textBox201.Text = Math.Round(yearZatrSum2, 2).ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
