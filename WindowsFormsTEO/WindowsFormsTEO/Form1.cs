@@ -1662,6 +1662,11 @@ namespace WindowsFormsTEO
             panel1.Visible = false;
         }
 
+        private void label185_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(".\\Справка.pdf");
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             double Cm = 0; //затраты на материалы.

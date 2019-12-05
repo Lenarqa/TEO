@@ -529,6 +529,11 @@
             this.label189 = new System.Windows.Forms.Label();
             this.label190 = new System.Windows.Forms.Label();
             this.label191 = new System.Windows.Forms.Label();
+            this.label192 = new System.Windows.Forms.Label();
+            this.label193 = new System.Windows.Forms.Label();
+            this.label194 = new System.Windows.Forms.Label();
+            this.label195 = new System.Windows.Forms.Label();
+            this.label196 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -586,6 +591,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label192);
             this.tabPage1.Controls.Add(this.label19);
             this.tabPage1.Controls.Add(this.label18);
             this.tabPage1.Controls.Add(this.button1);
@@ -1355,6 +1361,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label193);
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.groupBox19);
             this.tabPage2.Controls.Add(this.groupBox20);
@@ -2996,6 +3003,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label194);
             this.tabPage3.Controls.Add(this.groupBox31);
             this.tabPage3.Controls.Add(this.label165);
             this.tabPage3.Controls.Add(this.textBox232);
@@ -3935,6 +3943,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.label195);
             this.tabPage4.Controls.Add(this.textBox216);
             this.tabPage4.Controls.Add(this.textBox215);
             this.tabPage4.Controls.Add(this.label152);
@@ -3965,6 +3974,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.label196);
             this.tabPage5.Controls.Add(this.groupBox33);
             this.tabPage5.Controls.Add(this.label176);
             this.tabPage5.Controls.Add(this.label175);
@@ -5546,6 +5556,7 @@
             this.label185.Size = new System.Drawing.Size(63, 17);
             this.label185.TabIndex = 2;
             this.label185.Text = "Справка";
+            this.label185.Click += new System.EventHandler(this.label185_Click);
             // 
             // panel1
             // 
@@ -5633,6 +5644,51 @@
             this.label191.TabIndex = 0;
             this.label191.Text = "Авторы: Жукова Ксения, Валиев Ленар";
             // 
+            // label192
+            // 
+            this.label192.AutoSize = true;
+            this.label192.Location = new System.Drawing.Point(396, 778);
+            this.label192.Name = "label192";
+            this.label192.Size = new System.Drawing.Size(139, 17);
+            this.label192.TabIndex = 8;
+            this.label192.Text = "©ValievKsenia, 2019";
+            // 
+            // label193
+            // 
+            this.label193.AutoSize = true;
+            this.label193.Location = new System.Drawing.Point(404, 1826);
+            this.label193.Name = "label193";
+            this.label193.Size = new System.Drawing.Size(139, 17);
+            this.label193.TabIndex = 36;
+            this.label193.Text = "©ValievKsenia, 2019";
+            // 
+            // label194
+            // 
+            this.label194.AutoSize = true;
+            this.label194.Location = new System.Drawing.Point(385, 1797);
+            this.label194.Name = "label194";
+            this.label194.Size = new System.Drawing.Size(139, 17);
+            this.label194.TabIndex = 94;
+            this.label194.Text = "©ValievKsenia, 2019";
+            // 
+            // label195
+            // 
+            this.label195.AutoSize = true;
+            this.label195.Location = new System.Drawing.Point(379, 1822);
+            this.label195.Name = "label195";
+            this.label195.Size = new System.Drawing.Size(139, 17);
+            this.label195.TabIndex = 60;
+            this.label195.Text = "©ValievKsenia, 2019";
+            // 
+            // label196
+            // 
+            this.label196.AutoSize = true;
+            this.label196.Location = new System.Drawing.Point(407, 1164);
+            this.label196.Name = "label196";
+            this.label196.Size = new System.Drawing.Size(139, 17);
+            this.label196.TabIndex = 44;
+            this.label196.Text = "©ValievKsenia, 2019";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -5644,11 +5700,12 @@
             this.Controls.Add(this.label184);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ТЭО";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.groupBox19.ResumeLayout(false);
             this.groupBox19.PerformLayout();
             this.groupBox20.ResumeLayout(false);
@@ -6231,6 +6288,11 @@
         private System.Windows.Forms.Label label189;
         private System.Windows.Forms.Label label190;
         private System.Windows.Forms.Label label191;
+        private System.Windows.Forms.Label label192;
+        private System.Windows.Forms.Label label193;
+        private System.Windows.Forms.Label label194;
+        private System.Windows.Forms.Label label195;
+        private System.Windows.Forms.Label label196;
     }
 }
 
