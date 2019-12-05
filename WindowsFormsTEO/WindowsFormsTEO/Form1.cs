@@ -1640,6 +1640,27 @@ namespace WindowsFormsTEO
 
         }
 
+        private void label184_Click(object sender, EventArgs e)
+        {
+            if (panel1.Visible == true)
+            {
+                panel1.Visible = false;
+            }
+            else
+            {
+                panel1.Visible = true;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {

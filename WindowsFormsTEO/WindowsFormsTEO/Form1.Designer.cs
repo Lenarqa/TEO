@@ -519,6 +519,16 @@
             this.textBox244 = new System.Windows.Forms.TextBox();
             this.textBox245 = new System.Windows.Forms.TextBox();
             this.groupBox33 = new System.Windows.Forms.GroupBox();
+            this.label184 = new System.Windows.Forms.Label();
+            this.label185 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label186 = new System.Windows.Forms.Label();
+            this.label187 = new System.Windows.Forms.Label();
+            this.label188 = new System.Windows.Forms.Label();
+            this.label189 = new System.Windows.Forms.Label();
+            this.label190 = new System.Windows.Forms.Label();
+            this.label191 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -558,6 +568,7 @@
             this.groupBox31.SuspendLayout();
             this.groupBox32.SuspendLayout();
             this.groupBox33.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -567,7 +578,7 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(13, 13);
+            this.tabControl1.Location = new System.Drawing.Point(12, 42);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(981, 2000);
@@ -5517,12 +5528,120 @@
             this.groupBox33.TabIndex = 43;
             this.groupBox33.TabStop = false;
             // 
+            // label184
+            // 
+            this.label184.AutoSize = true;
+            this.label184.Location = new System.Drawing.Point(13, 13);
+            this.label184.Name = "label184";
+            this.label184.Size = new System.Drawing.Size(77, 17);
+            this.label184.TabIndex = 1;
+            this.label184.Text = "Об авторе";
+            this.label184.Click += new System.EventHandler(this.label184_Click);
+            // 
+            // label185
+            // 
+            this.label185.AutoSize = true;
+            this.label185.Location = new System.Drawing.Point(98, 13);
+            this.label185.Name = "label185";
+            this.label185.Size = new System.Drawing.Size(63, 17);
+            this.label185.TabIndex = 2;
+            this.label185.Text = "Справка";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.button6);
+            this.panel1.Controls.Add(this.label186);
+            this.panel1.Controls.Add(this.label187);
+            this.panel1.Controls.Add(this.label188);
+            this.panel1.Controls.Add(this.label189);
+            this.panel1.Controls.Add(this.label190);
+            this.panel1.Controls.Add(this.label191);
+            this.panel1.Location = new System.Drawing.Point(155, 207);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(665, 382);
+            this.panel1.TabIndex = 7;
+            this.panel1.Visible = false;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(505, 323);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(139, 42);
+            this.button6.TabIndex = 12;
+            this.button6.Text = "Назад";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
+            // label186
+            // 
+            this.label186.AutoSize = true;
+            this.label186.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label186.Location = new System.Drawing.Point(135, 246);
+            this.label186.MaximumSize = new System.Drawing.Size(500, 0);
+            this.label186.Name = "label186";
+            this.label186.Size = new System.Drawing.Size(394, 87);
+            this.label186.TabIndex = 11;
+            this.label186.Text = "Со всеми вопросами вы можете обратиться по адресу  vipkseniya.zhukova@mail.ru  ";
+            // 
+            // label187
+            // 
+            this.label187.AutoSize = true;
+            this.label187.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label187.Location = new System.Drawing.Point(135, 199);
+            this.label187.Name = "label187";
+            this.label187.Size = new System.Drawing.Size(293, 29);
+            this.label187.TabIndex = 10;
+            this.label187.Text = "Версия программы: 1.0v";
+            // 
+            // label188
+            // 
+            this.label188.AutoSize = true;
+            this.label188.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label188.Location = new System.Drawing.Point(135, 151);
+            this.label188.Name = "label188";
+            this.label188.Size = new System.Drawing.Size(247, 29);
+            this.label188.TabIndex = 9;
+            this.label188.Text = "Разработано 1.11.19";
+            // 
+            // label189
+            // 
+            this.label189.AutoSize = true;
+            this.label189.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label189.Location = new System.Drawing.Point(135, 102);
+            this.label189.Name = "label189";
+            this.label189.Size = new System.Drawing.Size(316, 29);
+            this.label189.TabIndex = 8;
+            this.label189.Text = "Дизайнер: Жукова Ксения";
+            // 
+            // label190
+            // 
+            this.label190.AutoSize = true;
+            this.label190.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label190.Location = new System.Drawing.Point(135, 53);
+            this.label190.Name = "label190";
+            this.label190.Size = new System.Drawing.Size(332, 29);
+            this.label190.TabIndex = 7;
+            this.label190.Text = "Прогаммист: Валиев Ленар";
+            // 
+            // label191
+            // 
+            this.label191.AutoSize = true;
+            this.label191.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label191.Location = new System.Drawing.Point(135, 14);
+            this.label191.Name = "label191";
+            this.label191.Size = new System.Drawing.Size(461, 29);
+            this.label191.TabIndex = 0;
+            this.label191.Text = "Авторы: Жукова Ксения, Валиев Ленар";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(995, 1055);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label185);
+            this.Controls.Add(this.label184);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -5602,7 +5721,10 @@
             this.groupBox32.PerformLayout();
             this.groupBox33.ResumeLayout(false);
             this.groupBox33.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -6099,6 +6221,16 @@
         private System.Windows.Forms.Label label178;
         private System.Windows.Forms.Label label177;
         private System.Windows.Forms.Label label176;
+        private System.Windows.Forms.Label label184;
+        private System.Windows.Forms.Label label185;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label186;
+        private System.Windows.Forms.Label label187;
+        private System.Windows.Forms.Label label188;
+        private System.Windows.Forms.Label label189;
+        private System.Windows.Forms.Label label190;
+        private System.Windows.Forms.Label label191;
     }
 }
 
