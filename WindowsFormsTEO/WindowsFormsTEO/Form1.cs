@@ -1423,14 +1423,15 @@ namespace WindowsFormsTEO
 
         private void button3_Click(object sender, EventArgs e)
         {
+            double Cm = 0; //затраты на материалы.
             day1 = 0;
             day2 = 0;
+            Cm = 0;
             button2_Click(sender, e);
             double K = 0, Kp = 0, Kp2 = 0, Wd = 0, Wc = 0, Wh = 0, rabDayMounth = 0;
             double okl1 = 0, okl2 = 0;//оклады
             double srDaySt1 = 0, srDaySt2 = 0;//средне дневная ставка
             double ozp1 = 0, ozp2 = 0, ozpSum = 0;//озп
-            double Cm = 0; //затраты на материалы.
             double Mv = 0;//машинное время
             double Ko;//затраты на основное и вспомогательное оборудование
             double Yj;//коэффициент загрузки 
@@ -1531,10 +1532,10 @@ namespace WindowsFormsTEO
                 okl2 = Convert.ToDouble(textBox131.Text);
 
                 srDaySt1 = okl1 / rabDayMounth;
-                textBox133.Text = srDaySt1.ToString();
+                textBox133.Text = Math.Round(srDaySt1, 2).ToString();
 
                 srDaySt2 = okl2 / rabDayMounth;
-                textBox132.Text = srDaySt2.ToString();
+                textBox132.Text = Math.Round(srDaySt2, 2).ToString(); 
 
                 textBox135.Text = day1.ToString();
                 textBox134.Text = day2.ToString();
@@ -1542,42 +1543,42 @@ namespace WindowsFormsTEO
                 ozp1 = day1 * srDaySt1;
                 ozp2 = day2 * srDaySt2;
 
-                textBox137.Text = ozp1.ToString();
-                textBox136.Text = ozp2.ToString();
+                textBox137.Text = Math.Round(ozp1, 2).ToString();
+                textBox136.Text = Math.Round(ozp2, 2).ToString();
 
                 ozpSum = ozp1 + ozp2;
-                textBox167.Text = ozpSum.ToString();
+                textBox167.Text = Math.Round(ozpSum, 2).ToString();
 
                 Cm += Convert.ToDouble(textBox153.Text) * Convert.ToDouble(textBox156.Text);
-                textBox159.Text = (Convert.ToDouble(textBox153.Text)*Convert.ToDouble(textBox156.Text)).ToString();
+                textBox159.Text = Math.Round((Convert.ToDouble(textBox153.Text) * Convert.ToDouble(textBox156.Text)), 2).ToString();
 
                 Cm += Convert.ToDouble(textBox152.Text) * Convert.ToDouble(textBox155.Text);
-                textBox158.Text = (Convert.ToDouble(textBox152.Text) * Convert.ToDouble(textBox155.Text)).ToString();
+                textBox158.Text = Math.Round((Convert.ToDouble(textBox152.Text) * Convert.ToDouble(textBox155.Text)), 2).ToString();
 
                 Cm += Convert.ToDouble(textBox151.Text) * Convert.ToDouble(textBox154.Text);
-                textBox157.Text = (Convert.ToDouble(textBox151.Text) * Convert.ToDouble(textBox154.Text)).ToString();
+                textBox157.Text = Math.Round((Convert.ToDouble(textBox151.Text) * Convert.ToDouble(textBox154.Text)), 2).ToString();
 
-                textBox160.Text = Cm.ToString();
+                textBox160.Text = Math.Round(Cm,2).ToString();
 
                 Mv = Convert.ToDouble(textBox143.Text) * Convert.ToDouble(textBox144.Text) * day2 * Convert.ToDouble(textBox145.Text);
 
                 Kp = ((1 + Wd)*(1 + Wc) + Wh) * ozpSum + Cm + Mv;
-                label104.Text = "Капитальные вложения(Kп) = " + Kp;
+                label104.Text = "Капитальные вложения(Kп) = " + Math.Round(Kp, 2).ToString();
                 //label104.Text = day1 + " " + day2;
-                textBox164.Text = ozpSum.ToString();
-                textBox166.Text = Wh.ToString();
-                textBox168.Text = Cm.ToString();
-                textBox165.Text = Mv.ToString();
-                textBox162.Text = (ozpSum*Wd).ToString();
-                textBox163.Text = ((ozpSum + (ozpSum * Wd))*Wc).ToString();
-                textBox166.Text = (ozpSum * Wh).ToString();
-                textBox161.Text = (ozpSum+ Wh+ Cm+ Mv+ (ozpSum * Wd)+ ((ozpSum + (ozpSum * Wd)) * Wc)+ (ozpSum * Wh)).ToString();
+                textBox164.Text = Math.Round(ozpSum, 2).ToString();
+                textBox166.Text = Math.Round(Wh, 2).ToString();
+                textBox168.Text = Math.Round(Cm, 2).ToString();
+                textBox165.Text = Math.Round(Mv, 2).ToString();
+                textBox162.Text = Math.Round((ozpSum * Wd), 2).ToString();
+                textBox163.Text = Math.Round(((ozpSum + (ozpSum * Wd)) * Wc), 2).ToString();
+                textBox166.Text = Math.Round((ozpSum * Wh), 2).ToString();
+                textBox161.Text = Math.Round((ozpSum + Wh + Cm + Mv + (ozpSum * Wd) + ((ozpSum + (ozpSum * Wd)) * Wc) + (ozpSum * Wh)), 2).ToString();
 
-                label105.Text ="Кр = " + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8))).ToString();
-                label110.Text = "К = " + (Kp + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8)))).ToString();
-                day1 = 0;
-                day2 = 0;
-                Cm = 0;
+                label105.Text ="Кр = " + Math.Round((Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8))), 2).ToString();
+                label110.Text = "К = " + Math.Round((Kp + (Convert.ToDouble(textBox141.Text) * Convert.ToDouble(textBox142.Text) * ((Convert.ToDouble(textBox169.Text) * Convert.ToDouble(textBox170.Text)) / (Convert.ToDouble(textBox170.Text) * 8)))), 2).ToString();
+                //day1 = 0;
+                //day2 = 0;
+                
             }
 
         }
