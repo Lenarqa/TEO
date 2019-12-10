@@ -206,6 +206,8 @@ namespace WindowsFormsTEO
             dt1 = dateTimePicker1.Value;
             dt2 = dateTimePicker1.Value;
 
+            day1 = 0;
+            day2 = 0;
 
             if (textBox29.Text.Equals("0")){
                 dt2 = dt1;
@@ -1472,11 +1474,12 @@ namespace WindowsFormsTEO
                     dt1 = dt2;
                 }
             }
-
+            textBox247.Text = "0";
+            textBox246.Text = "0";
             textBox247.Text = day1.ToString();
             textBox246.Text = day2.ToString();
-            day1 = 0;
-            day2 = 0;
+            // day1 = 0;
+            //day2 = 0;
         }
 
         private void label91_Click(object sender, EventArgs e)
